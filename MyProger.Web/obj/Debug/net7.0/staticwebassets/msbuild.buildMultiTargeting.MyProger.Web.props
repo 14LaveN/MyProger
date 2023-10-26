@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyProger.Web.props" />
+</Project>

@@ -1,0 +1,6 @@
+﻿services:
+  myproger.micro.identity:
+    image: myproger.micro.identity:latest
+    build:
+      context: .
+      dockerfile: MyProger.Micro.Identity/Dockerfile

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "oy8z69tUNcyy0vSTbVVhb1+jiSFYI8YsGLTCHBjgueh8gw80kSE5TohlYxe5AiM9IeWW9uwJ8tpaINa2hHstCQ==",
+  "success": true,
+  "projectFilePath": "E:\\DotNetProjects\\MyProger\\MyProger.Micro.RabbitMq\\MyProger.Micro.RabbitMq.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Laven\\.nuget\\packages\\rabbitmq.client\\7.0.0-alpha.0\\rabbitmq.client.7.0.0-alpha.0.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

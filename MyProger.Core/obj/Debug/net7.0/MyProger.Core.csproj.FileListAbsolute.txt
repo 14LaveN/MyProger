@@ -1,0 +1,12 @@
+E:\DotNetProjects\MyProger\MyProger.Core\bin\Debug\net7.0\MyProger.Core.deps.json
+E:\DotNetProjects\MyProger\MyProger.Core\bin\Debug\net7.0\MyProger.Core.dll
+E:\DotNetProjects\MyProger\MyProger.Core\bin\Debug\net7.0\MyProger.Core.pdb
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\MyProger.Core.csproj.AssemblyReference.cache
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\MyProger.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\MyProger.Core.AssemblyInfoInputs.cache
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\MyProger.Core.AssemblyInfo.cs
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\MyProger.Core.csproj.CoreCompileInputs.cache
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\MyProger.Core.dll
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\refint\MyProger.Core.dll
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\MyProger.Core.pdb
+E:\DotNetProjects\MyProger\MyProger.Core\obj\Debug\net7.0\ref\MyProger.Core.dll
