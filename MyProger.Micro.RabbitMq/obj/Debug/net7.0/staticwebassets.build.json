@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QxPqpacn0qnfhJiXC4H8plrMQwaoGW+05VWh2IplLOA=",
+  "Source": "MyProger.Micro.RabbitMq",
+  "BasePath": "_content/MyProger.Micro.RabbitMq",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

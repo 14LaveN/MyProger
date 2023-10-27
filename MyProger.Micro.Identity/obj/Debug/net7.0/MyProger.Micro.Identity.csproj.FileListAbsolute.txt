@@ -72,3 +72,4 @@ E:\DotNetProjects\MyProger\MyProger.Micro.Identity\obj\Debug\net7.0\MyProger.Mic
 E:\DotNetProjects\MyProger\MyProger.Micro.Identity\obj\Debug\net7.0\ref\MyProger.Micro.Identity.dll
 E:\DotNetProjects\MyProger\MyProger.Micro.Identity\bin\Debug\net7.0\MyProger.Micro.Identity.xml
 E:\DotNetProjects\MyProger\MyProger.Micro.Identity\obj\Debug\net7.0\MyProger.Micro.Identity.xml
+E:\DotNetProjects\MyProger\MyProger.Micro.Identity\bin\Debug\net7.0\MongoDB.Bson.dll

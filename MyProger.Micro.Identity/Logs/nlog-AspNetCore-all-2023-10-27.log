@@ -1,0 +1,1235 @@
+2023-10-27 14:23:43.9595|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-10-27 14:23:44.0235|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-10-27 14:23:44.0445|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-10-27 14:23:44.0445|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-986fe8c4-a792-4074-b9ad-6a118ccf56a9.xml'. 
+2023-10-27 14:23:44.0445|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-cd28ee06-4595-46d4-8679-e06dac3a83e0.xml'. 
+2023-10-27 14:23:44.0536|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {986fe8c4-a792-4074-b9ad-6a118ccf56a9}. 
+2023-10-27 14:23:44.0536|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {cd28ee06-4595-46d4-8679-e06dac3a83e0}. 
+2023-10-27 14:23:44.0536|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {cd28ee06-4595-46d4-8679-e06dac3a83e0} with expiration date 2023-12-21 09:26:14Z as default key. 
+2023-10-27 14:23:44.0536|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-27 14:23:44.0536|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-10-27 14:23:44.0676|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-27 14:23:44.0676|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-10-27 14:23:44.0676|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-10-27 14:23:44.0676|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {cd28ee06-4595-46d4-8679-e06dac3a83e0} as the default key. 
+2023-10-27 14:23:44.0676|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {cd28ee06-4595-46d4-8679-e06dac3a83e0} was loaded during application startup. 
+2023-10-27 14:23:44.2110|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7124 
+2023-10-27 14:23:44.2405|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-10-27 14:23:44.2405|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.Identity 
+2023-10-27 14:23:44.2405|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-10-27 14:23:44.2405|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-10-27 14:23:44.2405|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.Identity 
+2023-10-27 14:23:44.2405|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-10-27 14:23:44.5064|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMOO4F5PKP" received FIN. 
+2023-10-27 14:23:44.5064|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMOO4F5PKP" accepted. 
+2023-10-27 14:23:44.5064|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMOO4F5PKP" started. 
+2023-10-27 14:23:44.5244|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-27 14:23:44.5488|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMOO4F5PKP" stopped. 
+2023-10-27 14:23:44.5521|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMOO4F5PKP" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-10-27 14:23:44.6486|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMOO4F5PKQ" accepted. 
+2023-10-27 14:23:44.6486|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMOO4F5PKQ" started. 
+2023-10-27 14:23:44.6486|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMOO4F5PKR" accepted. 
+2023-10-27 14:23:44.6486|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMOO4F5PKR" started. 
+2023-10-27 14:23:44.6809|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMOO4F5PKR" received FIN. 
+2023-10-27 14:23:44.6977|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMUMOO4F5PKR established using the following protocol: Tls13 
+2023-10-27 14:23:44.6977|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMUMOO4F5PKQ established using the following protocol: Tls13 
+2023-10-27 14:23:44.7190|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKR" is closed. The last processed stream ID was 0. 
+2023-10-27 14:23:44.7190|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMOO4F5PKR" sending FIN because: "The client closed the connection." 
+2023-10-27 14:23:44.7190|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-27 14:23:44.7190|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HMUMOO4F5PKR completed. 
+2023-10-27 14:23:44.7190|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:23:44.7238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-27 14:23:44.7238|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMOO4F5PKR" stopped. 
+2023-10-27 14:23:44.7238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-27 14:23:44.7238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:23:44.7238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received HEADERS frame for stream ID 1 with length 1611 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:23:44.7238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-27 14:23:44.7496|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger - - 
+2023-10-27 14:23:44.7496|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-10-27 14:23:44.7496|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:23:44.9894|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-27 14:23:45.4777|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'ScopesId'} was not created on entity type 'AppUserScopeEntity (Dictionary<string, object>)' as the properties are already covered by the index {'ScopesId', 'UsersId'}. 
+2023-10-27 14:23:45.4777|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<long>' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2023-10-27 14:23:45.4777|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<long>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}. 
+2023-10-27 14:23:45.5722|0|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'AppUserScopeEntity (Dictionary<string, object>).ScopesId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-10-27 14:23:45.5722|0|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'AppUserScopeEntity (Dictionary<string, object>).UsersId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-10-27 14:23:45.7111|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:23:45.7333|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ScopeEntity>()
+    .Any()' 
+2023-10-27 14:23:45.8560|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Scopes AS s)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    MyProger.Micro.Identity.Database.AppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-10-27 14:23:45.8793|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:23:45.8808|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:23:45.9107|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (27ms). 
+2023-10-27 14:23:45.9143|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (36ms). 
+2023-10-27 14:23:45.9143|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (38ms). 
+2023-10-27 14:23:45.9143|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.2000|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.2089|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.2747|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.2747|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.2909|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 11ms reading results. 
+2023-10-27 14:23:46.2909|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.2909|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (3ms). 
+2023-10-27 14:23:46.3384|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending HEADERS frame for stream ID 1 with length 69 and flags END_STREAM, END_HEADERS. 
+2023-10-27 14:23:46.3384|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:23:46.3384|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.3384|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received HEADERS frame for stream ID 3 with length 43 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:23:46.3384|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/index.html - - 
+2023-10-27 14:23:46.3384|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:23:46.3384|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (2ms). 
+2023-10-27 14:23:46.3384|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger - - - 301 0 - 1597.5235ms 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.3531|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.3777|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.3777|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.3777|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:23:46.3777|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.3777|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.4589|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending HEADERS frame for stream ID 3 with length 28 and flags END_HEADERS. 
+2023-10-27 14:23:46.4589|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 3 with length 4758 and flags NONE. 
+2023-10-27 14:23:46.4589|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:23:46.4589|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-10-27 14:23:46.4589|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.4589|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.4589|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/index.html - - - 200 - text/html;charset=utf-8 121.5390ms 
+2023-10-27 14:23:46.4994|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received HEADERS frame for stream ID 5 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:23:46.4994|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received HEADERS frame for stream ID 7 with length 59 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:23:46.4994|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/swagger-ui.css - - 
+2023-10-27 14:23:46.4994|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:23:46.4994|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received HEADERS frame for stream ID 9 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:23:46.4994|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/swagger-ui-bundle.js - - 
+2023-10-27 14:23:46.4994|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:23:46.4994|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/swagger-ui-standalone-preset.js - - 
+2023-10-27 14:23:46.4994|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.5226|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5226|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.5226|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-10-27 14:23:46.5226|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending HEADERS frame for stream ID 9 with length 86 and flags END_HEADERS. 
+2023-10-27 14:23:46.5226|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5226|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5226|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5226|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5445|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 867 and flags NONE. 
+2023-10-27 14:23:46.5533|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.5533|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.5533|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 50.3504ms 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.5533|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5533|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-10-27 14:23:46.5675|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending HEADERS frame for stream ID 7 with length 35 and flags END_HEADERS. 
+2023-10-27 14:23:46.5675|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.5675|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5675|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:23:46.5675|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.5675|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending HEADERS frame for stream ID 5 with length 43 and flags END_HEADERS. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5675|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 13857 and flags NONE. 
+2023-10-27 14:23:46.5837|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-10-27 14:23:46.5837|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:23:46.5837|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.5837|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.5837|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/swagger-ui.css - - - 200 144929 text/css 83.7889ms 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5837|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 16384 and flags NONE. 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 12960 and flags NONE. 
+2023-10-27 14:23:46.5990|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2023-10-27 14:23:46.5990|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2023-10-27 14:23:46.5990|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:23:46.5990|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.5990|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.5990|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 98.1340ms 
+2023-10-27 14:23:46.7448|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received HEADERS frame for stream ID 11 with length 73 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:23:46.7448|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/v1/swagger.json - - 
+2023-10-27 14:23:46.7448|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.7448|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:23:46.7448|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.8446|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending HEADERS frame for stream ID 11 with length 35 and flags END_HEADERS. 
+2023-10-27 14:23:46.8446|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 11 with length 6125 and flags NONE. 
+2023-10-27 14:23:46.8446|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2023-10-27 14:23:46.8446|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:23:46.8446|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:23:46.8446|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:23:46.8446|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.1001ms 
+2023-10-27 14:24:01.3296|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received HEADERS frame for stream ID 13 with length 90 and flags END_HEADERS, PRIORITY. 
+2023-10-27 14:24:01.3296|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-10-27 14:24:01.3296|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7124/api/v1/identity/register-user application/json 225 
+2023-10-27 14:24:01.3296|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:24:01.3296|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-10-27 14:24:01.3296|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received DATA frame for stream ID 13 with length 225 and flags END_STREAM. 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:24:01.3296|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-10-27 14:24:01.3296|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-10-27 14:24:01.3542|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/v1/identity/register-user' 
+2023-10-27 14:24:01.3542|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MyProger.Micro.Identity.Controllers.IdentityController.Register (MyProger.Micro.Identity)' with route pattern 'api/v1/identity/register-user' is valid for the request path '/api/v1/identity/register-user' 
+2023-10-27 14:24:01.3542|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MyProger.Micro.Identity.Controllers.IdentityController.Register (MyProger.Micro.Identity)' 
+2023-10-27 14:24:01.4692|0|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated. 
+2023-10-27 14:24:01.4692|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MyProger.Micro.Identity.Controllers.IdentityController.Register (MyProger.Micro.Identity)' 
+2023-10-27 14:24:01.4835|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Register", controller = "Identity"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(MyProger.Micro.Identity.Commands.Register.RegisterCommand) on controller MyProger.Micro.Identity.Controllers.IdentityController (MyProger.Micro.Identity). 
+2023-10-27 14:24:01.4835|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-10-27 14:24:01.4835|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-10-27 14:24:01.4835|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-10-27 14:24:01.4835|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-10-27 14:24:01.4835|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0) 
+2023-10-27 14:24:01.4835|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MyProger.Micro.Identity.Controllers.IdentityController (MyProger.Micro.Identity) 
+2023-10-27 14:24:01.4835|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MyProger.Micro.Identity.Controllers.IdentityController (MyProger.Micro.Identity) 
+2023-10-27 14:24:01.4996|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MyProger.Micro.Identity.Commands.Register.RegisterCommand' ... 
+2023-10-27 14:24:01.4996|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MyProger.Micro.Identity.Commands.Register.RegisterCommand' using the name '' in request data ... 
+2023-10-27 14:24:01.4996|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'. 
+2023-10-27 14:24:01.5137|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMUMOO4F5PKQ", Request id "0HMUMOO4F5PKQ:0000000D": started reading request body. 
+2023-10-27 14:24:01.5137|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMUMOO4F5PKQ", Request id "0HMUMOO4F5PKQ:0000000D": done reading request body. 
+2023-10-27 14:24:01.5137|0|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MyProger.Micro.Identity.Commands.Register.RegisterCommand' 
+2023-10-27 14:24:01.5137|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MyProger.Micro.Identity.Commands.Register.RegisterCommand'. 
+2023-10-27 14:24:01.5137|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MyProger.Micro.Identity.Commands.Register.RegisterCommand'. 
+2023-10-27 14:24:01.5137|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MyProger.Micro.Identity.Commands.Register.RegisterCommand' ... 
+2023-10-27 14:24:01.5279|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MyProger.Micro.Identity.Commands.Register.RegisterCommand'. 
+2023-10-27 14:24:01.5279|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-27 14:24:01.5279|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-27 14:24:01.5279|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-27 14:24:01.5279|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-27 14:24:01.5279|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MyProger.Micro.Identity.Controllers.IdentityController.Register (MyProger.Micro.Identity) - Validation state: Valid 
+2023-10-27 14:24:01.5279|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MyProger.Micro.Identity.Controllers.IdentityController.Register (MyProger.Micro.Identity) with arguments (MyProger.Micro.Identity.Commands.Register.RegisterCommand) 
+2023-10-27 14:24:03.6816|0|INFO|MyProger.Micro.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - Lavenka123 jfgdjf 
+2023-10-27 14:24:04.0545|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<AppUser>()
+    .Include(x => x.Scopes)
+    .FirstOrDefault(x => x.UserName == __name_0)' 
+2023-10-27 14:24:04.0989|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'AppUser.Scopes'. 
+2023-10-27 14:24:04.2533|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<AppUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<AppUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: AppUser.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: AppUser.AccessFailedCount (int) Required, 1], [Property: AppUser.BirthDate (DateTime?), 2], [Property: AppUser.ConcurrencyStamp (string) Concurrency, 3], [Property: AppUser.Email (string) MaxLength(256), 4], [Property: AppUser.EmailConfirmed (bool) Required, 5], [Property: AppUser.Firstname (string), 6], [Property: AppUser.Lastname (string), 7], [Property: AppUser.LockoutEnabled (bool) Required, 8], [Property: AppUser.LockoutEnd (DateTimeOffset?), 9], [Property: AppUser.NormalizedEmail (string) Index MaxLength(256), 10], [Property: AppUser.NormalizedUserName (string) Index MaxLength(256), 11], [Property: AppUser.PasswordHash (string), 12], [Property: AppUser.Patronymic (string), 13], [Property: AppUser.PhoneNumber (string), 14], [Property: AppUser.PhoneNumberConfirmed (bool) Required, 15], [Property: AppUser.RefreshToken (string), 16], [Property: AppUser.SecurityStamp (string), 17], [Property: AppUser.TwoFactorEnabled (bool) Required, 18], [Property: AppUser.UserName (string) MaxLength(256), 19] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: AppUserScopeEntity (Dictionary<string, object>).ScopesId (no field, long) Indexer Required PK FK AfterSave:Throw, 20], [Property: AppUserScopeEntity (Dictionary<string, object>).UsersId (no field, long) Indexer Required PK FK Index AfterSave:Throw, 21] }
+                3 -> Dictionary<IProperty, int> { [Property: ScopeEntity.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 22], [Property: ScopeEntity.CreatedAt (DateTime) Required, 23], [Property: ScopeEntity.Name (string) Required, 24] }
+                4 -> 20
+                5 -> 21
+                6 -> 22
+            SELECT t.Id, t.AccessFailedCount, t.BirthDate, t.ConcurrencyStamp, t.Email, t.EmailConfirmed, t.Firstname, t.Lastname, t.LockoutEnabled, t.LockoutEnd, t.NormalizedEmail, t.NormalizedUserName, t.PasswordHash, t.Patronymic, t.PhoneNumber, t.PhoneNumberConfirmed, t.RefreshToken, t.SecurityStamp, t.TwoFactorEnabled, t.UserName, t0.ScopesId, t0.UsersId, t0.Id, t0.CreatedAt, t0.Name
+            FROM 
+            (
+                SELECT TOP(1) a.Id, a.AccessFailedCount, a.BirthDate, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.Firstname, a.Lastname, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.Patronymic, a.PhoneNumber, a.PhoneNumberConfirmed, a.RefreshToken, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+                FROM AspNetUsers AS a
+                WHERE a.UserName == @__name_0
+            ) AS t
+            LEFT JOIN 
+            (
+                SELECT a0.ScopesId, a0.UsersId, s.Id, s.CreatedAt, s.Name
+                FROM AppUserScopeEntity AS a0
+                INNER JOIN Scopes AS s ON a0.ScopesId == s.Id
+            ) AS t0 ON t.Id == t0.UsersId
+            ORDER BY t.Id ASC, t0.ScopesId ASC, t0.UsersId ASC), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, AppUser>, 
+        MyProger.Micro.Identity.Database.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2023-10-27 14:24:04.2712|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:04.2712|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:04.2712|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (2ms). 
+2023-10-27 14:24:04.2712|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:04.2712|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:04.2712|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."BirthDate", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."Firstname", t."Lastname", t."LockoutEnabled", t."LockoutEnd", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."Patronymic", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", t0."ScopesId", t0."UsersId", t0."Id", t0."CreatedAt", t0."Name"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."BirthDate", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."Firstname", a."Lastname", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."Patronymic", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__name_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT a0."ScopesId", a0."UsersId", s."Id", s."CreatedAt", s."Name"
+    FROM "AppUserScopeEntity" AS a0
+    INNER JOIN "Scopes" AS s ON a0."ScopesId" = s."Id"
+) AS t0 ON t."Id" = t0."UsersId"
+ORDER BY t."Id", t0."ScopesId", t0."UsersId" 
+2023-10-27 14:24:04.4076|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (131ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."BirthDate", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."Firstname", t."Lastname", t."LockoutEnabled", t."LockoutEnd", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."Patronymic", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", t0."ScopesId", t0."UsersId", t0."Id", t0."CreatedAt", t0."Name"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."BirthDate", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."Firstname", a."Lastname", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."Patronymic", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__name_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT a0."ScopesId", a0."UsersId", s."Id", s."CreatedAt", s."Name"
+    FROM "AppUserScopeEntity" AS a0
+    INNER JOIN "Scopes" AS s ON a0."ScopesId" = s."Id"
+) AS t0 ON t."Id" = t0."UsersId"
+ORDER BY t."Id", t0."ScopesId", t0."UsersId" 
+2023-10-27 14:24:04.4121|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:04.4121|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 4ms reading results. 
+2023-10-27 14:24:04.4121|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:04.4121|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<AppUser>()
+    .FirstOrDefault(u => u.NormalizedUserName == __normalizedUserName_0)' 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<AppUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<AppUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: AppUser.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: AppUser.AccessFailedCount (int) Required, 1], [Property: AppUser.BirthDate (DateTime?), 2], [Property: AppUser.ConcurrencyStamp (string) Concurrency, 3], [Property: AppUser.Email (string) MaxLength(256), 4], [Property: AppUser.EmailConfirmed (bool) Required, 5], [Property: AppUser.Firstname (string), 6], [Property: AppUser.Lastname (string), 7], [Property: AppUser.LockoutEnabled (bool) Required, 8], [Property: AppUser.LockoutEnd (DateTimeOffset?), 9], [Property: AppUser.NormalizedEmail (string) Index MaxLength(256), 10], [Property: AppUser.NormalizedUserName (string) Index MaxLength(256), 11], [Property: AppUser.PasswordHash (string), 12], [Property: AppUser.Patronymic (string), 13], [Property: AppUser.PhoneNumber (string), 14], [Property: AppUser.PhoneNumberConfirmed (bool) Required, 15], [Property: AppUser.RefreshToken (string), 16], [Property: AppUser.SecurityStamp (string), 17], [Property: AppUser.TwoFactorEnabled (bool) Required, 18], [Property: AppUser.UserName (string) MaxLength(256), 19] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.BirthDate, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.Firstname, a.Lastname, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.Patronymic, a.PhoneNumber, a.PhoneNumberConfirmed, a.RefreshToken, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedUserName == @__normalizedUserName_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, AppUser>, 
+        MyProger.Micro.Identity.Database.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."BirthDate", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."Firstname", a."Lastname", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."Patronymic", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2023-10-27 14:24:04.7453|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."BirthDate", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."Firstname", a."Lastname", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."Patronymic", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:04.7453|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:04.8209|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"AppDbContext"' generated a temporary value for the property '"Id"."AppUser"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:04.8896|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'AppUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:04.8896|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'AppDbContext'. 
+2023-10-27 14:24:04.8896|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'AppDbContext'. 
+2023-10-27 14:24:04.9105|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'AppDbContext'. 
+2023-10-27 14:24:04.9759|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:04.9759|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:04.9759|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:04.9759|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:04.9759|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:04.9759|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?', @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?', @p16='?', @p17='?' (DbType = Boolean), @p18='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("AccessFailedCount", "BirthDate", "ConcurrencyStamp", "Email", "EmailConfirmed", "Firstname", "Lastname", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "Patronymic", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "SecurityStamp", "TwoFactorEnabled", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18)
+RETURNING "Id"; 
+2023-10-27 14:24:05.1357|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (158ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?', @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?', @p14='?' (DbType = Boolean), @p15='?', @p16='?', @p17='?' (DbType = Boolean), @p18='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("AccessFailedCount", "BirthDate", "ConcurrencyStamp", "Email", "EmailConfirmed", "Firstname", "Lastname", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "Patronymic", "PhoneNumber", "PhoneNumberConfirmed", "RefreshToken", "SecurityStamp", "TwoFactorEnabled", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18)
+RETURNING "Id"; 
+2023-10-27 14:24:05.1357|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'AppUser.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-27 14:24:05.1495|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.1495|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 13ms reading results. 
+2023-10-27 14:24:05.1495|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.1495|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:05.1495|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'AppUser' tracked by 'AppDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.1495|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2023-10-27 14:24:05.4408|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"AppDbContext"' generated a temporary value for the property '"Id"."ScopeEntity"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'ScopeEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'AppDbContext'. 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'AppDbContext'. 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'AppDbContext'. 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:05.4478|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime), @p1='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Scopes" ("CreatedAt", "Name")
+VALUES (@p0, @p1)
+RETURNING "Id"; 
+2023-10-27 14:24:05.4478|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Scopes" ("CreatedAt", "Name")
+VALUES (@p0, @p1)
+RETURNING "Id"; 
+2023-10-27 14:24:05.4989|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'ScopeEntity.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-27 14:24:05.4989|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.4989|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 43ms reading results. 
+2023-10-27 14:24:05.4989|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.4989|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:05.4989|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'ScopeEntity' tracked by 'AppDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.4989|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2023-10-27 14:24:05.5928|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<AppUser>()
+    .Include(x => x.Scopes)
+    .FirstOrDefault(x => x.Id == __userId_0)' 
+2023-10-27 14:24:05.5928|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'AppUser.Scopes'. 
+2023-10-27 14:24:05.5928|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<AppUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<AppUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: AppUser.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: AppUser.AccessFailedCount (int) Required, 1], [Property: AppUser.BirthDate (DateTime?), 2], [Property: AppUser.ConcurrencyStamp (string) Concurrency, 3], [Property: AppUser.Email (string) MaxLength(256), 4], [Property: AppUser.EmailConfirmed (bool) Required, 5], [Property: AppUser.Firstname (string), 6], [Property: AppUser.Lastname (string), 7], [Property: AppUser.LockoutEnabled (bool) Required, 8], [Property: AppUser.LockoutEnd (DateTimeOffset?), 9], [Property: AppUser.NormalizedEmail (string) Index MaxLength(256), 10], [Property: AppUser.NormalizedUserName (string) Index MaxLength(256), 11], [Property: AppUser.PasswordHash (string), 12], [Property: AppUser.Patronymic (string), 13], [Property: AppUser.PhoneNumber (string), 14], [Property: AppUser.PhoneNumberConfirmed (bool) Required, 15], [Property: AppUser.RefreshToken (string), 16], [Property: AppUser.SecurityStamp (string), 17], [Property: AppUser.TwoFactorEnabled (bool) Required, 18], [Property: AppUser.UserName (string) MaxLength(256), 19] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: AppUserScopeEntity (Dictionary<string, object>).ScopesId (no field, long) Indexer Required PK FK AfterSave:Throw, 20], [Property: AppUserScopeEntity (Dictionary<string, object>).UsersId (no field, long) Indexer Required PK FK Index AfterSave:Throw, 21] }
+                3 -> Dictionary<IProperty, int> { [Property: ScopeEntity.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 22], [Property: ScopeEntity.CreatedAt (DateTime) Required, 23], [Property: ScopeEntity.Name (string) Required, 24] }
+                4 -> 20
+                5 -> 21
+                6 -> 22
+            SELECT t.Id, t.AccessFailedCount, t.BirthDate, t.ConcurrencyStamp, t.Email, t.EmailConfirmed, t.Firstname, t.Lastname, t.LockoutEnabled, t.LockoutEnd, t.NormalizedEmail, t.NormalizedUserName, t.PasswordHash, t.Patronymic, t.PhoneNumber, t.PhoneNumberConfirmed, t.RefreshToken, t.SecurityStamp, t.TwoFactorEnabled, t.UserName, t0.ScopesId, t0.UsersId, t0.Id, t0.CreatedAt, t0.Name
+            FROM 
+            (
+                SELECT TOP(1) a.Id, a.AccessFailedCount, a.BirthDate, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.Firstname, a.Lastname, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.Patronymic, a.PhoneNumber, a.PhoneNumberConfirmed, a.RefreshToken, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+                FROM AspNetUsers AS a
+                WHERE a.Id == @__userId_0
+            ) AS t
+            LEFT JOIN 
+            (
+                SELECT a0.ScopesId, a0.UsersId, s.Id, s.CreatedAt, s.Name
+                FROM AppUserScopeEntity AS a0
+                INNER JOIN Scopes AS s ON a0.ScopesId == s.Id
+            ) AS t0 ON t.Id == t0.UsersId
+            ORDER BY t.Id ASC, t0.ScopesId ASC, t0.UsersId ASC), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, AppUser>, 
+        MyProger.Micro.Identity.Database.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2023-10-27 14:24:05.5991|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:05.5991|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:05.5991|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:05.5991|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:05.5991|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.5991|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."BirthDate", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."Firstname", t."Lastname", t."LockoutEnabled", t."LockoutEnd", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."Patronymic", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", t0."ScopesId", t0."UsersId", t0."Id", t0."CreatedAt", t0."Name"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."BirthDate", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."Firstname", a."Lastname", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."Patronymic", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."Id" = @__userId_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT a0."ScopesId", a0."UsersId", s."Id", s."CreatedAt", s."Name"
+    FROM "AppUserScopeEntity" AS a0
+    INNER JOIN "Scopes" AS s ON a0."ScopesId" = s."Id"
+) AS t0 ON t."Id" = t0."UsersId"
+ORDER BY t."Id", t0."ScopesId", t0."UsersId" 
+2023-10-27 14:24:05.5991|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."BirthDate", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."Firstname", t."Lastname", t."LockoutEnabled", t."LockoutEnd", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."Patronymic", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", t0."ScopesId", t0."UsersId", t0."Id", t0."CreatedAt", t0."Name"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."BirthDate", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."Firstname", a."Lastname", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."Patronymic", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."Id" = @__userId_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT a0."ScopesId", a0."UsersId", s."Id", s."CreatedAt", s."Name"
+    FROM "AppUserScopeEntity" AS a0
+    INNER JOIN "Scopes" AS s ON a0."ScopesId" = s."Id"
+) AS t0 ON t."Id" = t0."UsersId"
+ORDER BY t."Id", t0."ScopesId", t0."UsersId" 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 33ms reading results. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ScopeEntity>()
+    .Include(x => x.Users)
+    .FirstOrDefault(x => x.Name == __scopeName_0)' 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Including navigation: 'ScopeEntity.Users'. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ScopeEntity>(
+    asyncEnumerable: new SingleQueryingEnumerable<ScopeEntity>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: ScopeEntity.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ScopeEntity.CreatedAt (DateTime) Required, 1], [Property: ScopeEntity.Name (string) Required, 2] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: AppUserScopeEntity (Dictionary<string, object>).ScopesId (no field, long) Indexer Required PK FK AfterSave:Throw, 3], [Property: AppUserScopeEntity (Dictionary<string, object>).UsersId (no field, long) Indexer Required PK FK Index AfterSave:Throw, 4] }
+                3 -> Dictionary<IProperty, int> { [Property: AppUser.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 5], [Property: AppUser.AccessFailedCount (int) Required, 6], [Property: AppUser.BirthDate (DateTime?), 7], [Property: AppUser.ConcurrencyStamp (string) Concurrency, 8], [Property: AppUser.Email (string) MaxLength(256), 9], [Property: AppUser.EmailConfirmed (bool) Required, 10], [Property: AppUser.Firstname (string), 11], [Property: AppUser.Lastname (string), 12], [Property: AppUser.LockoutEnabled (bool) Required, 13], [Property: AppUser.LockoutEnd (DateTimeOffset?), 14], [Property: AppUser.NormalizedEmail (string) Index MaxLength(256), 15], [Property: AppUser.NormalizedUserName (string) Index MaxLength(256), 16], [Property: AppUser.PasswordHash (string), 17], [Property: AppUser.Patronymic (string), 18], [Property: AppUser.PhoneNumber (string), 19], [Property: AppUser.PhoneNumberConfirmed (bool) Required, 20], [Property: AppUser.RefreshToken (string), 21], [Property: AppUser.SecurityStamp (string), 22], [Property: AppUser.TwoFactorEnabled (bool) Required, 23], [Property: AppUser.UserName (string) MaxLength(256), 24] }
+                4 -> 3
+                5 -> 4
+                6 -> 5
+            SELECT t.Id, t.CreatedAt, t.Name, t0.ScopesId, t0.UsersId, t0.Id, t0.AccessFailedCount, t0.BirthDate, t0.ConcurrencyStamp, t0.Email, t0.EmailConfirmed, t0.Firstname, t0.Lastname, t0.LockoutEnabled, t0.LockoutEnd, t0.NormalizedEmail, t0.NormalizedUserName, t0.PasswordHash, t0.Patronymic, t0.PhoneNumber, t0.PhoneNumberConfirmed, t0.RefreshToken, t0.SecurityStamp, t0.TwoFactorEnabled, t0.UserName
+            FROM 
+            (
+                SELECT TOP(1) s.Id, s.CreatedAt, s.Name
+                FROM Scopes AS s
+                WHERE s.Name == @__scopeName_0
+            ) AS t
+            LEFT JOIN 
+            (
+                SELECT a.ScopesId, a.UsersId, a0.Id, a0.AccessFailedCount, a0.BirthDate, a0.ConcurrencyStamp, a0.Email, a0.EmailConfirmed, a0.Firstname, a0.Lastname, a0.LockoutEnabled, a0.LockoutEnd, a0.NormalizedEmail, a0.NormalizedUserName, a0.PasswordHash, a0.Patronymic, a0.PhoneNumber, a0.PhoneNumberConfirmed, a0.RefreshToken, a0.SecurityStamp, a0.TwoFactorEnabled, a0.UserName
+                FROM AppUserScopeEntity AS a
+                INNER JOIN AspNetUsers AS a0 ON a.UsersId == a0.Id
+            ) AS t0 ON t.Id == t0.ScopesId
+            ORDER BY t.Id ASC, t0.ScopesId ASC, t0.UsersId ASC), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ScopeEntity>, 
+        MyProger.Micro.Identity.Database.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)' 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__scopeName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."CreatedAt", t."Name", t0."ScopesId", t0."UsersId", t0."Id", t0."AccessFailedCount", t0."BirthDate", t0."ConcurrencyStamp", t0."Email", t0."EmailConfirmed", t0."Firstname", t0."Lastname", t0."LockoutEnabled", t0."LockoutEnd", t0."NormalizedEmail", t0."NormalizedUserName", t0."PasswordHash", t0."Patronymic", t0."PhoneNumber", t0."PhoneNumberConfirmed", t0."RefreshToken", t0."SecurityStamp", t0."TwoFactorEnabled", t0."UserName"
+FROM (
+    SELECT s."Id", s."CreatedAt", s."Name"
+    FROM "Scopes" AS s
+    WHERE s."Name" = @__scopeName_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT a."ScopesId", a."UsersId", a0."Id", a0."AccessFailedCount", a0."BirthDate", a0."ConcurrencyStamp", a0."Email", a0."EmailConfirmed", a0."Firstname", a0."Lastname", a0."LockoutEnabled", a0."LockoutEnd", a0."NormalizedEmail", a0."NormalizedUserName", a0."PasswordHash", a0."Patronymic", a0."PhoneNumber", a0."PhoneNumberConfirmed", a0."RefreshToken", a0."SecurityStamp", a0."TwoFactorEnabled", a0."UserName"
+    FROM "AppUserScopeEntity" AS a
+    INNER JOIN "AspNetUsers" AS a0 ON a."UsersId" = a0."Id"
+) AS t0 ON t."Id" = t0."ScopesId"
+ORDER BY t."Id", t0."ScopesId", t0."UsersId" 
+2023-10-27 14:24:05.6462|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__scopeName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."CreatedAt", t."Name", t0."ScopesId", t0."UsersId", t0."Id", t0."AccessFailedCount", t0."BirthDate", t0."ConcurrencyStamp", t0."Email", t0."EmailConfirmed", t0."Firstname", t0."Lastname", t0."LockoutEnabled", t0."LockoutEnd", t0."NormalizedEmail", t0."NormalizedUserName", t0."PasswordHash", t0."Patronymic", t0."PhoneNumber", t0."PhoneNumberConfirmed", t0."RefreshToken", t0."SecurityStamp", t0."TwoFactorEnabled", t0."UserName"
+FROM (
+    SELECT s."Id", s."CreatedAt", s."Name"
+    FROM "Scopes" AS s
+    WHERE s."Name" = @__scopeName_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT a."ScopesId", a."UsersId", a0."Id", a0."AccessFailedCount", a0."BirthDate", a0."ConcurrencyStamp", a0."Email", a0."EmailConfirmed", a0."Firstname", a0."Lastname", a0."LockoutEnabled", a0."LockoutEnd", a0."NormalizedEmail", a0."NormalizedUserName", a0."PasswordHash", a0."Patronymic", a0."PhoneNumber", a0."PhoneNumberConfirmed", a0."RefreshToken", a0."SecurityStamp", a0."TwoFactorEnabled", a0."UserName"
+    FROM "AppUserScopeEntity" AS a
+    INNER JOIN "AspNetUsers" AS a0 ON a."UsersId" = a0."Id"
+) AS t0 ON t."Id" = t0."ScopesId"
+ORDER BY t."Id", t0."ScopesId", t0."UsersId" 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'AppUser' tracked by 'AppDbContext' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'AppDbContext'. 
+2023-10-27 14:24:05.6462|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'AppDbContext'. 
+2023-10-27 14:24:05.6629|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|1 entities were added and 0 entities were removed from skip navigation 'AppUser.Scopes'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.6801|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'AppDbContext' started tracking 'AppUserScopeEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.6801|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'AppDbContext'. 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Update|Executing 2 update commands as a batch. 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Beginning transaction with isolation level 'Unspecified'. 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Began transaction with isolation level 'ReadCommitted'. 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:05.6940|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p21='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?', @p22='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?', @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?', @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?', @p18='?', @p19='?' (DbType = Boolean), @p20='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AppUserScopeEntity" ("ScopesId", "UsersId")
+VALUES (@p0, @p1);
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p2, "BirthDate" = @p3, "ConcurrencyStamp" = @p4, "Email" = @p5, "EmailConfirmed" = @p6, "Firstname" = @p7, "Lastname" = @p8, "LockoutEnabled" = @p9, "LockoutEnd" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "PasswordHash" = @p13, "Patronymic" = @p14, "PhoneNumber" = @p15, "PhoneNumberConfirmed" = @p16, "RefreshToken" = @p17, "SecurityStamp" = @p18, "TwoFactorEnabled" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22; 
+2023-10-27 14:24:05.7165|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (DbType = Int64), @p21='?' (DbType = Int64), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime), @p4='?', @p22='?', @p5='?', @p6='?' (DbType = Boolean), @p7='?', @p8='?', @p9='?' (DbType = Boolean), @p10='?' (DbType = DateTime), @p11='?', @p12='?', @p13='?', @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?', @p18='?', @p19='?' (DbType = Boolean), @p20='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AppUserScopeEntity" ("ScopesId", "UsersId")
+VALUES (@p0, @p1);
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p2, "BirthDate" = @p3, "ConcurrencyStamp" = @p4, "Email" = @p5, "EmailConfirmed" = @p6, "Firstname" = @p7, "Lastname" = @p8, "LockoutEnabled" = @p9, "LockoutEnd" = @p10, "NormalizedEmail" = @p11, "NormalizedUserName" = @p12, "PasswordHash" = @p13, "Patronymic" = @p14, "PhoneNumber" = @p15, "PhoneNumberConfirmed" = @p16, "RefreshToken" = @p17, "SecurityStamp" = @p18, "TwoFactorEnabled" = @p19, "UserName" = @p20
+WHERE "Id" = @p21 AND "ConcurrencyStamp" = @p22; 
+2023-10-27 14:24:05.7165|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.7165|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:24:05.7165|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committing transaction. 
+2023-10-27 14:24:05.7246|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Committed transaction. 
+2023-10-27 14:24:05.7246|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:05.7246|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:05.7246|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Transaction|Disposing transaction. 
+2023-10-27 14:24:05.7246|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'AppUser' tracked by 'AppDbContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.7246|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'AppUserScopeEntity' tracked by 'AppDbContext' changed state from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:05.7246|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'AppDbContext' with 2 entities written to the database. 
+2023-10-27 14:24:06.3489|0|INFO|MyProger.Micro.Identity.Commands.Login.LoginCommandHandler|Request for login an account - Lavenka123 
+2023-10-27 14:24:06.6019|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:06.6019|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:06.6019|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:06.6019|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:06.6019|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:06.6019|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."BirthDate", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."Firstname", t."Lastname", t."LockoutEnabled", t."LockoutEnd", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."Patronymic", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", t0."ScopesId", t0."UsersId", t0."Id", t0."CreatedAt", t0."Name"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."BirthDate", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."Firstname", a."Lastname", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."Patronymic", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__name_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT a0."ScopesId", a0."UsersId", s."Id", s."CreatedAt", s."Name"
+    FROM "AppUserScopeEntity" AS a0
+    INNER JOIN "Scopes" AS s ON a0."ScopesId" = s."Id"
+) AS t0 ON t."Id" = t0."UsersId"
+ORDER BY t."Id", t0."ScopesId", t0."UsersId" 
+2023-10-27 14:24:06.6019|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."AccessFailedCount", t."BirthDate", t."ConcurrencyStamp", t."Email", t."EmailConfirmed", t."Firstname", t."Lastname", t."LockoutEnabled", t."LockoutEnd", t."NormalizedEmail", t."NormalizedUserName", t."PasswordHash", t."Patronymic", t."PhoneNumber", t."PhoneNumberConfirmed", t."RefreshToken", t."SecurityStamp", t."TwoFactorEnabled", t."UserName", t0."ScopesId", t0."UsersId", t0."Id", t0."CreatedAt", t0."Name"
+FROM (
+    SELECT a."Id", a."AccessFailedCount", a."BirthDate", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."Firstname", a."Lastname", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."Patronymic", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+    FROM "AspNetUsers" AS a
+    WHERE a."UserName" = @__name_0
+    LIMIT 1
+) AS t
+LEFT JOIN (
+    SELECT a0."ScopesId", a0."UsersId", s."Id", s."CreatedAt", s."Name"
+    FROM "AppUserScopeEntity" AS a0
+    INNER JOIN "Scopes" AS s ON a0."ScopesId" = s."Id"
+) AS t0 ON t."Id" = t0."UsersId"
+ORDER BY t."Id", t0."ScopesId", t0."UsersId" 
+2023-10-27 14:24:06.6420|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:06.6420|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 28ms reading results. 
+2023-10-27 14:24:06.6420|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:06.6420|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'AppDbContext'. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'AppDbContext'. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The unchanged property 'AppUser.RefreshToken' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'AppUser' tracked by 'AppDbContext' changed state from 'Unchanged' to 'Modified'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'AppDbContext'. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p1='?' (DbType = Int64), @p2='?', @p0='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "RefreshToken" = @p0
+WHERE "Id" = @p1 AND "ConcurrencyStamp" = @p2; 
+2023-10-27 14:24:09.3372|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p1='?' (DbType = Int64), @p2='?', @p0='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "RefreshToken" = @p0
+WHERE "Id" = @p1 AND "ConcurrencyStamp" = @p2; 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|An entity of type 'AppUser' tracked by 'AppDbContext' changed state from 'Modified' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-10-27 14:24:09.3372|0|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'AppDbContext' with 1 entities written to the database. 
+2023-10-27 14:24:15.5759|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method MyProger.Micro.Identity.Controllers.IdentityController.Register (MyProger.Micro.Identity), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14041.1134ms. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-10-27 14:24:15.5759|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-10-27 14:24:15.5759|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2023-10-27 14:24:15.5759|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2023-10-27 14:24:15.5759|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/json'. 
+2023-10-27 14:24:15.5759|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response. 
+2023-10-27 14:24:15.5759|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending HEADERS frame for stream ID 13 with length 66 and flags END_HEADERS. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 13 with length 551 and flags NONE. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ProducesAttribute. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" received WINDOW_UPDATE frame for stream ID 13 with length 4 and flags 0x0. 
+2023-10-27 14:24:15.5850|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MyProger.Micro.Identity.Controllers.IdentityController.Register (MyProger.Micro.Identity) in 14101.0918ms 
+2023-10-27 14:24:15.5850|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MyProger.Micro.Identity.Controllers.IdentityController.Register (MyProger.Micro.Identity)' 
+2023-10-27 14:24:15.5850|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMOO4F5PKQ" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2023-10-27 14:24:15.5850|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:24:15.5850|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:24:15.5850|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:24:15.5850|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7124/api/v1/identity/register-user application/json 225 - 200 - application/json;+charset=utf-8 14259.8576ms 
+2023-10-27 14:40:27.1003|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-10-27 14:40:27.1728|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-10-27 14:40:27.2017|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-10-27 14:40:27.2017|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-986fe8c4-a792-4074-b9ad-6a118ccf56a9.xml'. 
+2023-10-27 14:40:27.2017|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-cd28ee06-4595-46d4-8679-e06dac3a83e0.xml'. 
+2023-10-27 14:40:27.2093|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {986fe8c4-a792-4074-b9ad-6a118ccf56a9}. 
+2023-10-27 14:40:27.2093|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {cd28ee06-4595-46d4-8679-e06dac3a83e0}. 
+2023-10-27 14:40:27.2093|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {cd28ee06-4595-46d4-8679-e06dac3a83e0} with expiration date 2023-12-21 09:26:14Z as default key. 
+2023-10-27 14:40:27.2093|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-27 14:40:27.2093|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-10-27 14:40:27.2093|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-27 14:40:27.2242|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-10-27 14:40:27.2242|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-10-27 14:40:27.2242|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {cd28ee06-4595-46d4-8679-e06dac3a83e0} as the default key. 
+2023-10-27 14:40:27.2242|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {cd28ee06-4595-46d4-8679-e06dac3a83e0} was loaded during application startup. 
+2023-10-27 14:40:27.3803|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7124 
+2023-10-27 14:40:27.4225|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-10-27 14:40:27.4225|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.Identity 
+2023-10-27 14:40:27.4225|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-10-27 14:40:27.4225|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-10-27 14:40:27.4225|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.Identity 
+2023-10-27 14:40:27.4225|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-10-27 14:40:27.5575|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMP1FD0N7C" received FIN. 
+2023-10-27 14:40:27.5575|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP1FD0N7C" accepted. 
+2023-10-27 14:40:27.5575|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP1FD0N7C" started. 
+2023-10-27 14:40:27.5784|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-27 14:40:27.6074|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP1FD0N7C" stopped. 
+2023-10-27 14:40:27.6074|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMP1FD0N7C" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-10-27 14:40:27.6702|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP1FD0N7D" accepted. 
+2023-10-27 14:40:27.6702|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP1FD0N7D" started. 
+2023-10-27 14:40:27.7148|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMUMP1FD0N7D established using the following protocol: Tls13 
+2023-10-27 14:40:27.7412|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-27 14:40:27.7412|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:40:27.7412|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-27 14:40:27.7412|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-27 14:40:27.7412|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:40:27.7412|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:40:27.7570|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-27 14:40:27.7758|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/index.html - - 
+2023-10-27 14:40:27.7758|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-10-27 14:40:27.7758|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:40:27.9191|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-27 14:40:28.3596|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'ScopesId'} was not created on entity type 'AppUserScopeEntity (Dictionary<string, object>)' as the properties are already covered by the index {'ScopesId', 'UsersId'}. 
+2023-10-27 14:40:28.3596|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<long>' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2023-10-27 14:40:28.3596|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<long>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}. 
+2023-10-27 14:40:28.4390|0|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'AppUserScopeEntity (Dictionary<string, object>).ScopesId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-10-27 14:40:28.4390|0|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'AppUserScopeEntity (Dictionary<string, object>).UsersId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-10-27 14:40:28.5688|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:40:28.5888|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ScopeEntity>()
+    .Any()' 
+2023-10-27 14:40:28.7041|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Scopes AS s)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    MyProger.Micro.Identity.Database.AppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-10-27 14:40:28.7240|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:40:28.7240|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:40:28.7507|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (23ms). 
+2023-10-27 14:40:28.7551|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (30ms). 
+2023-10-27 14:40:28.7551|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (33ms). 
+2023-10-27 14:40:28.7551|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:40:28.8717|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:40:28.8717|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:40:28.9046|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:40:28.9127|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:40:28.9127|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 9ms reading results. 
+2023-10-27 14:40:28.9127|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:40:28.9127|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (3ms). 
+2023-10-27 14:40:29.0276|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-10-27 14:40:29.0276|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending DATA frame for stream ID 1 with length 4758 and flags NONE. 
+2023-10-27 14:40:29.0276|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-10-27 14:40:29.0276|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:40:29.0381|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:40:29.0381|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (1ms). 
+2023-10-27 14:40:29.0381|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/index.html - - - 200 - text/html;charset=utf-8 1266.2386ms 
+2023-10-27 14:40:29.2620|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" received HEADERS frame for stream ID 3 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:40:29.2620|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/v1/swagger.json - - 
+2023-10-27 14:40:29.2620|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:40:29.2784|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:40:29.2784|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:40:29.3877|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2023-10-27 14:40:29.3877|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending DATA frame for stream ID 3 with length 6125 and flags NONE. 
+2023-10-27 14:40:29.3877|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:40:29.3877|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP1FD0N7D" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-10-27 14:40:29.3877|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:40:29.3877|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:40:29.3877|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.3970ms 
+2023-10-27 14:42:11.4029|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-10-27 14:42:11.4686|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-10-27 14:42:11.4879|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-10-27 14:42:11.4907|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-986fe8c4-a792-4074-b9ad-6a118ccf56a9.xml'. 
+2023-10-27 14:42:11.4907|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-cd28ee06-4595-46d4-8679-e06dac3a83e0.xml'. 
+2023-10-27 14:42:11.4907|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {986fe8c4-a792-4074-b9ad-6a118ccf56a9}. 
+2023-10-27 14:42:11.4907|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {cd28ee06-4595-46d4-8679-e06dac3a83e0}. 
+2023-10-27 14:42:11.4907|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {cd28ee06-4595-46d4-8679-e06dac3a83e0} with expiration date 2023-12-21 09:26:14Z as default key. 
+2023-10-27 14:42:11.4907|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-27 14:42:11.5053|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-10-27 14:42:11.5053|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-27 14:42:11.5053|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-10-27 14:42:11.5053|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-10-27 14:42:11.5053|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {cd28ee06-4595-46d4-8679-e06dac3a83e0} as the default key. 
+2023-10-27 14:42:11.5053|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {cd28ee06-4595-46d4-8679-e06dac3a83e0} was loaded during application startup. 
+2023-10-27 14:42:11.6465|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7124 
+2023-10-27 14:42:11.6645|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-10-27 14:42:11.6645|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.Identity 
+2023-10-27 14:42:11.6645|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-10-27 14:42:11.6645|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-10-27 14:42:11.6645|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.Identity 
+2023-10-27 14:42:11.6645|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-10-27 14:42:11.7721|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMP2EESFTH" received FIN. 
+2023-10-27 14:42:11.7721|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP2EESFTH" accepted. 
+2023-10-27 14:42:11.7721|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP2EESFTH" started. 
+2023-10-27 14:42:11.7894|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-27 14:42:11.8127|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP2EESFTH" stopped. 
+2023-10-27 14:42:11.8127|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMP2EESFTH" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-10-27 14:42:11.8820|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP2EESFTI" accepted. 
+2023-10-27 14:42:11.8820|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMP2EESFTI" started. 
+2023-10-27 14:42:11.9217|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMUMP2EESFTI established using the following protocol: Tls13 
+2023-10-27 14:42:11.9450|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-27 14:42:11.9450|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:42:11.9450|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-27 14:42:11.9450|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-27 14:42:11.9450|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:42:11.9450|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:42:11.9592|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-27 14:42:11.9592|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/index.html - - 
+2023-10-27 14:42:11.9733|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-10-27 14:42:11.9733|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:42:12.1009|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-27 14:42:12.5309|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'ScopesId'} was not created on entity type 'AppUserScopeEntity (Dictionary<string, object>)' as the properties are already covered by the index {'ScopesId', 'UsersId'}. 
+2023-10-27 14:42:12.5309|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<long>' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2023-10-27 14:42:12.5309|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<long>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}. 
+2023-10-27 14:42:12.6092|0|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'AppUserScopeEntity (Dictionary<string, object>).ScopesId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-10-27 14:42:12.6092|0|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'AppUserScopeEntity (Dictionary<string, object>).UsersId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-10-27 14:42:12.7368|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:42:12.7602|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ScopeEntity>()
+    .Any()' 
+2023-10-27 14:42:12.8787|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Scopes AS s)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    MyProger.Micro.Identity.Database.AppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-10-27 14:42:12.8983|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:42:12.8983|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:42:12.9242|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (22ms). 
+2023-10-27 14:42:12.9286|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (29ms). 
+2023-10-27 14:42:12.9286|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (32ms). 
+2023-10-27 14:42:12.9286|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:42:13.0486|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:42:13.0566|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:42:13.0810|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (25ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:42:13.0897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:42:13.0897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 10ms reading results. 
+2023-10-27 14:42:13.0897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:42:13.1024|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (3ms). 
+2023-10-27 14:42:13.2100|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-10-27 14:42:13.2100|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending DATA frame for stream ID 1 with length 4758 and flags NONE. 
+2023-10-27 14:42:13.2100|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-10-27 14:42:13.2100|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:42:13.2100|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:42:13.2100|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (2ms). 
+2023-10-27 14:42:13.2249|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/index.html - - - 200 - text/html;charset=utf-8 1252.7217ms 
+2023-10-27 14:42:13.3767|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" received HEADERS frame for stream ID 3 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:42:13.3767|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/v1/swagger.json - - 
+2023-10-27 14:42:13.3767|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:42:13.3921|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:42:13.3957|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:42:13.3957|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:42:13.3957|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:42:13.3957|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:42:13.3957|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:42:13.4977|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending HEADERS frame for stream ID 3 with length 35 and flags END_HEADERS. 
+2023-10-27 14:42:13.4977|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending DATA frame for stream ID 3 with length 6125 and flags NONE. 
+2023-10-27 14:42:13.4977|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:42:13.4977|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMP2EESFTI" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-10-27 14:42:13.4977|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:42:13.4977|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:42:13.4977|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 120.6085ms 
+2023-10-27 14:56:54.3858|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-10-27 14:56:54.4525|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-10-27 14:56:54.4739|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-10-27 14:56:54.4739|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-986fe8c4-a792-4074-b9ad-6a118ccf56a9.xml'. 
+2023-10-27 14:56:54.4739|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-cd28ee06-4595-46d4-8679-e06dac3a83e0.xml'. 
+2023-10-27 14:56:54.4739|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {986fe8c4-a792-4074-b9ad-6a118ccf56a9}. 
+2023-10-27 14:56:54.4739|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {cd28ee06-4595-46d4-8679-e06dac3a83e0}. 
+2023-10-27 14:56:54.4739|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {cd28ee06-4595-46d4-8679-e06dac3a83e0} with expiration date 2023-12-21 09:26:14Z as default key. 
+2023-10-27 14:56:54.4916|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-27 14:56:54.4916|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-10-27 14:56:54.4916|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-10-27 14:56:54.4916|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-10-27 14:56:54.4916|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-10-27 14:56:54.4916|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {cd28ee06-4595-46d4-8679-e06dac3a83e0} as the default key. 
+2023-10-27 14:56:54.4916|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {cd28ee06-4595-46d4-8679-e06dac3a83e0} was loaded during application startup. 
+2023-10-27 14:56:54.6543|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7124 
+2023-10-27 14:56:54.6710|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 
+2023-10-27 14:56:54.6710|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.Identity 
+2023-10-27 14:56:54.6710|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-10-27 14:56:54.6710|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-10-27 14:56:54.6710|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.Identity 
+2023-10-27 14:56:54.6710|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-10-27 14:56:55.1426|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMPALNBOEK" received FIN. 
+2023-10-27 14:56:55.1468|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMPALNBOEK" accepted. 
+2023-10-27 14:56:55.1468|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMPALNBOEK" started. 
+2023-10-27 14:56:55.1611|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-10-27 14:56:55.1878|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMPALNBOEK" stopped. 
+2023-10-27 14:56:55.1878|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMUMPALNBOEK" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-10-27 14:56:55.2515|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMPALNBOEL" accepted. 
+2023-10-27 14:56:55.2515|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMUMPALNBOEL" started. 
+2023-10-27 14:56:55.2899|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMUMPALNBOEL established using the following protocol: Tls13 
+2023-10-27 14:56:55.3143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-27 14:56:55.3143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:56:55.3143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-10-27 14:56:55.3143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-27 14:56:55.3143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-10-27 14:56:55.3143|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:56:55.3257|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-10-27 14:56:55.3401|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/index.html - - 
+2023-10-27 14:56:55.3401|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-10-27 14:56:55.3401|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:56:55.4761|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-10-27 14:56:55.8870|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'ScopesId'} was not created on entity type 'AppUserScopeEntity (Dictionary<string, object>)' as the properties are already covered by the index {'ScopesId', 'UsersId'}. 
+2023-10-27 14:56:55.8870|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserRole<long>' as the properties are already covered by the index {'UserId', 'RoleId'}. 
+2023-10-27 14:56:55.8870|0|DEBUG|Microsoft.EntityFrameworkCore.Model|The index {'UserId'} was not created on entity type 'IdentityUserToken<long>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}. 
+2023-10-27 14:56:55.9627|0|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'AppUserScopeEntity (Dictionary<string, object>).ScopesId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-10-27 14:56:55.9627|0|DEBUG|Microsoft.EntityFrameworkCore.Model.Validation|The property 'AppUserScopeEntity (Dictionary<string, object>).UsersId' was created in shadow state because there are no eligible CLR members with a matching name. 
+2023-10-27 14:56:56.0906|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:56:56.1095|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<ScopeEntity>()
+    .Any()' 
+2023-10-27 14:56:56.2299|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT EXISTS (
+            SELECT 1
+            FROM Scopes AS s)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+    MyProger.Micro.Identity.Database.AppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-10-27 14:56:56.2513|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:56:56.2513|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:56:56.2786|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (23ms). 
+2023-10-27 14:56:56.2786|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (30ms). 
+2023-10-27 14:56:56.2786|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (34ms). 
+2023-10-27 14:56:56.2857|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:56:56.4115|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:56:56.4115|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:56:56.4421|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:56:56.4498|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:56:56.4498|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 9ms reading results. 
+2023-10-27 14:56:56.4588|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:56:56.4588|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (3ms). 
+2023-10-27 14:56:56.5683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-10-27 14:56:56.5683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending DATA frame for stream ID 1 with length 4758 and flags NONE. 
+2023-10-27 14:56:56.5683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-10-27 14:56:56.5683|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:56:56.5683|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:56:56.5683|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (2ms). 
+2023-10-27 14:56:56.5683|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/index.html - - - 200 - text/html;charset=utf-8 1242.7015ms 
+2023-10-27 14:56:56.7267|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" received HEADERS frame for stream ID 3 with length 114 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-10-27 14:56:56.7267|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7124/swagger/v1/swagger.json - - 
+2023-10-27 14:56:56.7267|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.12 initialized 'AppDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:7.0.11+c25a0d7b68d66c6ab3849a3b4333964faea6adc9' with options: None 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (0ms). 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:56:56.7398|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Scopes" AS s) 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'IdentityDbDevelopment' on server 'tcp://localhost:5433' is being disposed after spending 0ms reading results. 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'IdentityDbDevelopment' on server 'tcp://localhost:5433'. 
+2023-10-27 14:56:56.7398|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:56:56.8437|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2023-10-27 14:56:56.8437|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending DATA frame for stream ID 3 with length 9427 and flags NONE. 
+2023-10-27 14:56:56.8437|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'AppDbContext' disposed. 
+2023-10-27 14:56:56.8437|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMUMPALNBOEL" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-10-27 14:56:56.8437|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'IdentityDbDevelopment' on server ''. 
+2023-10-27 14:56:56.8437|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database 'IdentityDbDevelopment' on server '' (0ms). 
+2023-10-27 14:56:56.8437|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7124/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.5220ms 

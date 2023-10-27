@@ -4,3 +4,15 @@
     build:
       context: .
       dockerfile: MyProger.Micro.Identity/Dockerfile
+      
+  myproger.micro.companyapi:
+    image: myproger.micro.companyapi
+    build:
+      context: .
+      dockerfile: MyProger.Micro.CompanyAPI/Dockerfile
+
+  myproger.micro.joblistapi:
+    image: myproger.micro.joblistapi
+    build:
+      context: .
+      dockerfile: MyProger.Micro.JobListAPI/Dockerfile

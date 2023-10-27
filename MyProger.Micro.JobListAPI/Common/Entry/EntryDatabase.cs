@@ -1,3 +1,4 @@
+using MyProger.Core.Entity.Likes;
 using MyProger.Micro.JobListAPI.Database;
 using MyProger.Micro.JobListAPI.Database.Interfaces;
 using MyProger.Micro.JobListAPI.Database.Repositories;
@@ -16,6 +17,7 @@ public static class EntryDatabase
         services.AddTransient<JobDbContext>(provider => new JobDbContext());
         services.AddScoped<IJobRepository, JobRepository>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
+        services.AddScoped<ILikesRepository<LikeEntity>, LikesRepository>();
         
         return services;
     }

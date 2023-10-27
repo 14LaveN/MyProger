@@ -5,6 +5,8 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
@@ -14,6 +16,7 @@
         <PackageReference Include="MediatR" Version="12.1.1" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.12" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9"/>
+        <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
         <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.5" />
         <PackageReference Include="Npgsql" Version="7.0.6" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
@@ -26,16 +29,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Commands\CloseJob\" />
-      <Folder Include="Commands\DeleteJob\" />
-      <Folder Include="Commands\UpdateJob\" />
       <Folder Include="Logs\" />
       <Folder Include="Middlewares\" />
-      <Folder Include="Queries\" />
+      <Folder Include="Queries\Job\" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\MyProger.Core\MyProger.Core.csproj" />
+      <ProjectReference Include="..\MyProger.Micro.Identity\MyProger.Micro.Identity.csproj" />
       <ProjectReference Include="..\MyProger.Micro.RabbitMq\MyProger.Micro.RabbitMq.csproj" />
     </ItemGroup>
 

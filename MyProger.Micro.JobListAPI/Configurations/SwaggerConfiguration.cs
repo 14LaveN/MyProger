@@ -1,7 +1,7 @@
 using System.Reflection;
 using Microsoft.OpenApi.Models;
 
-namespace MyProger.Micro.Identity.Configurations;
+namespace MyProger.Micro.JobListAPI.Configurations;
 
 internal static class SwaggerConfiguration
 {
@@ -17,24 +17,24 @@ internal static class SwaggerConfiguration
         {
             options.SwaggerDoc("v1", new OpenApiInfo
             {
-                Version = "Поколение 1",
-                Title = "TasksEntities API",
-                Description = "Backend Web API на C# .NET for TasksEntities application",
+                Version = "Version 1",
+                Title = "JobList API",
+                Description = "Backend JobList Web API на C# .NET for MyProger application",
                 Contact = new OpenApiContact
                 {
-                    Name = "Vk",
-                    Url = new Uri("https://vk.com/fufkasss")
+                    Name = "Gtihub",
+                    Url = new Uri("https://github.com/14LaveN")
                 }
             });
             options.SwaggerDoc("v2", new OpenApiInfo
             {
-                Version = "Поколение 2",
-                Title = "Note API",
-                Description = "Backend Web API на C# .NET для приложения заметок на React",
+                Version = "Version 2",
+                Title = "JobList API",
+                Description = "Backend JobList Web API на C# .NET for MyProger application",
                 Contact = new OpenApiContact
                 {
                     Name = "Gtihub",
-                    Url = new Uri("https://github.com/FUFKASSS")
+                    Url = new Uri("https://github.com/14LaveN")
                 }
             });
 

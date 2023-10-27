@@ -1,0 +1,22 @@
+2023-10-27 14:23:44.2110|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7124 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-10-27 14:23:44.2405|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-10-27 14:23:44.2405|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-10-27 14:23:44.2405|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-10-27 14:23:44.2405|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.Identity |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-10-27 14:24:03.6816|0|INFO|MyProger.Micro.Identity.Commands.Register.RegisterCommandHandler|Request for login an account - Lavenka123 jfgdjf |url: https://localhost/api/v1/identity/register-user|action: Register|MyProger.Micro.Identity.Commands.Register.RegisterCommandHandler.Handle
+2023-10-27 14:24:06.3489|0|INFO|MyProger.Micro.Identity.Commands.Login.LoginCommandHandler|Request for login an account - Lavenka123 |url: https://localhost/api/v1/identity/register-user|action: Register|MyProger.Micro.Identity.Commands.Login.LoginCommandHandler.Handle
+2023-10-27 14:40:27.3803|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7124 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-10-27 14:40:27.4225|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-10-27 14:40:27.4225|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-10-27 14:40:27.4225|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-10-27 14:40:27.4225|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.Identity |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-10-27 14:42:11.6465|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7124 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-10-27 14:42:11.6645|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-10-27 14:42:11.6645|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-10-27 14:42:11.6645|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-10-27 14:42:11.6645|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.Identity |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-10-27 14:56:54.6543|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7124 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-10-27 14:56:54.6710|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5294 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-10-27 14:56:54.6710|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-10-27 14:56:54.6710|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-10-27 14:56:54.6710|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.Identity |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted

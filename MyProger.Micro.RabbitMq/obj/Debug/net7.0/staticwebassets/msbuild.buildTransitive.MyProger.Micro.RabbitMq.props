@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MyProger.Micro.RabbitMq.props" />
+</Project>

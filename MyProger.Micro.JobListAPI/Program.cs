@@ -1,11 +1,19 @@
 using System.Text;
+using Dapper;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;
+using MyProger.Core.Models.MongoSettings;
 using MyProger.Micro.Identity.Configurations;
+using MyProger.Micro.Identity.Database.Interfaces;
+using MyProger.Micro.Identity.Database.Repository;
 using MyProger.Micro.JobListAPI.Commands.AddJob;
+using MyProger.Micro.JobListAPI.Commands.AddLikeToJob;
+using MyProger.Micro.JobListAPI.Commands.CloseJob;
+using MyProger.Micro.JobListAPI.Commands.UpdateJob;
 using MyProger.Micro.JobListAPI.Common.Entry;
+using MyProger.Micro.JobListAPI.Configurations;
 using MyProger.Micro.JobListAPI.Monitoring.Database;
 using MyProger.Micro.RabbitMQ;
 using NLog.Web;
@@ -27,7 +35,19 @@ builder.Services.AddMediatR(x =>
 {
     x.RegisterServicesFromAssemblies(typeof(AddJobCommand).Assembly,
         typeof(AddJobCommandHandler).Assembly);
+    
+    x.RegisterServicesFromAssemblies(typeof(CloseJobCommand).Assembly,
+        typeof(CloseJobCommandHandler).Assembly);
+    
+    x.RegisterServicesFromAssemblies(typeof(UpdateJobCommand).Assembly,
+        typeof(UpdateJobCommandHandler).Assembly);
+    
+    x.RegisterServicesFromAssemblies(typeof(AddLikeToJobCommand).Assembly,
+        typeof(AddLikeToJobCommandHandler).Assembly);
 });
+
+builder.Services.Configure<Settings>(
+    builder.Configuration.GetSection("MongoConnection"));
 
 builder.Services.AddDatabase()
     .AddValidators()
@@ -59,7 +79,7 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(corsPolicyBuilder =>
 {
-    corsPolicyBuilder.WithOrigins("https://localhost:44402/").AllowAnyHeader().AllowAnyMethod();
+    corsPolicyBuilder.WithOrigins("https://localhost:7124/").AllowAnyHeader().AllowAnyMethod();
 }));
 
 builder.Logging.ClearProviders().SetMinimumLevel(LogLevel.Trace);

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0x1luSYx542miW/h7ug8KSH/aB708HbGMJFvAJdbrjgBGMHuBLUGpi2M7rmd4zdMPIl1XZKlKu1gfZ0fUrlRwA==",
+  "dgSpecHash": "Ba0JBi55GfmqejOXbE0qOmnwOtIRL9Q3wYi4wuO6NWggCZfJL1eR5JKk9/uWpZwT4fcW3kjH31tg8oM5vsvL3A==",
   "success": true,
   "projectFilePath": "E:\\DotNetProjects\\MyProger\\MyProger.Core\\MyProger.Core.csproj",
   "expectedPackageFiles": [
@@ -19,7 +19,10 @@
     "C:\\Users\\Laven\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.0.3\\microsoft.identitymodel.jsonwebtokens.7.0.3.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512",
-    "C:\\Users\\Laven\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
+    "C:\\Users\\Laven\\.nuget\\packages\\mongodb.bson\\2.22.0\\mongodb.bson.2.22.0.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.3\\system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

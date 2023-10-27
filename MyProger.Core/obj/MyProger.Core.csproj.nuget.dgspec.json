@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[7.0.12, )"
             },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[7.0.3, )"

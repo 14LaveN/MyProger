@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="7.1.0" />
+        <PackageReference Include="Dapper" Version="2.1.15" />
+        <PackageReference Include="FluentValidation" Version="11.8.0" />
+        <PackageReference Include="MediatR" Version="12.1.1" />
+        <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.12" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9"/>
+        <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.5" />
+        <PackageReference Include="Npgsql" Version="7.0.6" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Command\Company\DeleteCompany\" />
+      <Folder Include="Command\Company\UpdateCompany\" />
+      <Folder Include="Logs\" />
+      <Folder Include="Middlewares\" />
+      <Folder Include="Queries\Company\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MyProger.Core\MyProger.Core.csproj" />
+      <ProjectReference Include="..\MyProger.Micro.RabbitMq\MyProger.Micro.RabbitMq.csproj" />
+    </ItemGroup>
+
+</Project>

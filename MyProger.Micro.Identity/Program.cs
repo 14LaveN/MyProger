@@ -107,7 +107,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(corsPolicyBuilder =>
 {
-    corsPolicyBuilder.WithOrigins("https://localhost:7017").AllowAnyHeader().AllowAnyMethod();
+    corsPolicyBuilder.WithOrigins("https://localhost:7041").AllowAnyHeader().AllowAnyMethod();
 }));
 
 builder.Logging.ClearProviders().SetMinimumLevel(LogLevel.Trace);
