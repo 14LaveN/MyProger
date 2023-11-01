@@ -11,4 +11,8 @@
       <PackageReference Include="MimeKit" Version="4.2.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MyProger.Core\MyProger.Core.csproj" />
+    </ItemGroup>
+
 </Project>

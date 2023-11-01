@@ -10,3 +10,6 @@ E:\DotNetProjects\MyProger\MyProger.Email\obj\Debug\net7.0\MyProger.Email.dll
 E:\DotNetProjects\MyProger\MyProger.Email\obj\Debug\net7.0\refint\MyProger.Email.dll
 E:\DotNetProjects\MyProger\MyProger.Email\obj\Debug\net7.0\MyProger.Email.pdb
 E:\DotNetProjects\MyProger\MyProger.Email\obj\Debug\net7.0\ref\MyProger.Email.dll
+E:\DotNetProjects\MyProger\MyProger.Email\bin\Debug\net7.0\MyProger.Core.dll
+E:\DotNetProjects\MyProger\MyProger.Email\bin\Debug\net7.0\MyProger.Core.pdb
+E:\DotNetProjects\MyProger\MyProger.Email\obj\Debug\net7.0\MyProger.Email.csproj.CopyComplete

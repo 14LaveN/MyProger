@@ -1,11 +1,16 @@
+using System.Text;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using MyProger.Core.Entity.Job;
+using MyProger.Core.Models;
 using Myproger.Core.Response;
 using MyProger.Micro.JobListAPI.Commands.AddJob;
 using MyProger.Micro.JobListAPI.Commands.AddLikeToJob;
 using MyProger.Micro.JobListAPI.Commands.CloseJob;
 using MyProger.Micro.JobListAPI.Commands.DeleteJob;
+using MyProger.Micro.JobListAPI.Monitoring;
+using StackExchange.Redis;
 
 namespace MyProger.Micro.JobListAPI.Controllers;
 
@@ -15,21 +20,31 @@ namespace MyProger.Micro.JobListAPI.Controllers;
 [ApiExplorerSettings(GroupName = "v1")]
 public class JobListController : ApiBaseController
 {
+    private readonly IDistributedCache _cache;
     private readonly IMediator _mediator;
+    private readonly IMetricsFactory _metricsFactory;
 
-    public JobListController(IMediator mediator)
+    public JobListController(IMediator mediator,
+        IDistributedCache cache,
+        IMetricsFactory metricsFactory)
     {
         _mediator = mediator;
+        _cache = cache;
+        _metricsFactory = metricsFactory;
     }
 
     [HttpPost("add-job-to-company")]
     public async Task<IBaseResponse<JobEntity>> AddJobToCompany(AddJobCommand addJobCommand)
     {
+        double numbers = 0;
+        var counter = _metricsFactory.CreateCounter(new CounterConfiguration("loxs", "dfgfd"));
+        counter.Increment(ref numbers);
+        
         var userName = GetName();
         if (userName == addJobCommand.CompanyName)
         {
             var response = await _mediator.Send(addJobCommand);
-
+            await _cache.SetAsync($"{addJobCommand.Title}", Encoding.UTF8.GetBytes(response.ToString() ?? string.Empty));
             if (response.StatusCode == Core.Enum.StatusCode.StatusCode.Ok)
             {
                 return response;

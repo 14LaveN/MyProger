@@ -7,7 +7,7 @@ namespace MyProger.Micro.JobListAPI.Monitoring.Database;
 public class JobDbHealthCheck : IHealthCheck
 {
     private readonly JobDbContext _jobDbContext;
-
+    
     public JobDbHealthCheck(JobDbContext jobDbContext)
     {
         _jobDbContext = jobDbContext;

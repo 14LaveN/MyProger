@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;
 using MyProger.Core.Models.MongoSettings;
 using MyProger.Micro.CompanyAPI.Command.Company.CreateCompany;
+using MyProger.Micro.CompanyAPI.Command.Company.DeleteCompany;
 using MyProger.Micro.CompanyAPI.Common.Entry;
 using MyProger.Micro.CompanyAPI.Monitoring.Database;
 using MyProger.Micro.JobListAPI.Configurations;
@@ -28,11 +29,15 @@ builder.Services.AddMediatR(x =>
 {
     x.RegisterServicesFromAssemblies(typeof(CreateCompanyCommand).Assembly,
         typeof(CreateCompanyCommandHandler).Assembly);
+    
+    x.RegisterServicesFromAssemblies(typeof(DeleteCompanyCommand).Assembly,
+        typeof(DeleteCompanyCommandHandler).Assembly);
 });
 
 builder.Services.AddDatabase()
     .AddValidators()
-    .AddSwachbackleService();
+    .AddSwachbackleService()
+    .AddEmail();
 
 builder.Services.AddAuthentication(config =>
     {

@@ -11,7 +11,9 @@ using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using MyProger.Core.Entity.Account;
+using MyProger.Core.Entity.Mail;
 using MyProger.Email;
+using MailMessage = System.Net.Mail.MailMessage;
 
 namespace MyProger.Micro.Identity.Commands.Register;
 
@@ -29,15 +31,14 @@ public class RegisterCommandHandler
         IValidator<RegisterCommand> validator,
         IUnitOfWork unitOfWork,
         UserManager<AppUser> userManager,
-        IMediator mediator,
-        EmailService emailService)
+        IMediator mediator)
     {
         _logger = logger;
         _validator = validator;
         _unitOfWork = unitOfWork;
         _userManager = userManager;
         _mediator = mediator;
-        _emailService = emailService;
+        _emailService = new EmailService("smtp.gmail.com", 587, "Ponomareff.55555@gmail.com", "Sasha_2008!");
     }
 
     public async Task<LoginResponse<AppUser>> Handle(RegisterCommand request,
@@ -89,7 +90,12 @@ public class RegisterCommandHandler
                 });
 
                 if (user.Email is not null && user.UserName is not null)
-                    _emailService.SendEmailCustom(user.UserName, user.Email, "You authorized to MyProger");
+                    _emailService.SendEmailDefault(new MailMessageEntity
+                    {
+                        To = new List<string> {user.Email},
+                        Subject = $"Authorize {user.UserName}",
+                        Body = "You authorized to MyProger"
+                    });
             }
             return new LoginResponse<AppUser>
             {

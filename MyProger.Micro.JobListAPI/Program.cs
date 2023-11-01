@@ -1,13 +1,11 @@
+using System.Reflection;
 using System.Text;
-using Dapper;
+using Elastic.Serilog.Sinks;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;
 using MyProger.Core.Models.MongoSettings;
-using MyProger.Micro.Identity.Configurations;
-using MyProger.Micro.Identity.Database.Interfaces;
-using MyProger.Micro.Identity.Database.Repository;
 using MyProger.Micro.JobListAPI.Commands.AddJob;
 using MyProger.Micro.JobListAPI.Commands.AddLikeToJob;
 using MyProger.Micro.JobListAPI.Commands.CloseJob;
@@ -17,10 +15,12 @@ using MyProger.Micro.JobListAPI.Configurations;
 using MyProger.Micro.JobListAPI.Monitoring.Database;
 using MyProger.Micro.RabbitMQ;
 using NLog.Web;
+using Prometheus;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
+
+builder.Services.AddLogging();
 
 builder.Services.AddRabbitMq("JobList");
 
@@ -49,9 +49,10 @@ builder.Services.AddMediatR(x =>
 builder.Services.Configure<Settings>(
     builder.Configuration.GetSection("MongoConnection"));
 
-builder.Services.AddDatabase()
+builder.Services.AddDatabase(builder.Configuration)
     .AddValidators()
-    .AddSwachbackleService();
+    .AddSwachbackleService()
+    .AddMonitoring();
 
 builder.Services.AddAuthentication(config =>
     {
@@ -101,6 +102,8 @@ app.UseHttpsRedirection();
 
 app.UseRouting();
 
+app.UseHttpMetrics();
+
 app.UseCors();
 
 app.UseAuthentication();
@@ -113,6 +116,8 @@ app.UseEndpoints(endpoints =>
         ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
     });
 });
+
+app.UseMetricServer(5000, "/prometheus");
 
 app.MapControllers();
 

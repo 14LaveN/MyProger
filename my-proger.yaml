@@ -1,0 +1,88 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-proger
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-proger   
+  template:
+    metadata:
+      labels:
+        app: my-proger
+    spec:
+      containers:
+        - name: myproger.mciro.productapi
+          image: product-service:latest
+          ports:
+            - containerPort: 5000
+              
+        - name: myproger.micro.companyapi
+          image: myproger.micro.companyapi:latest
+          ports:
+            - containerPort: 6000
+              
+        - name: myproger.mciro.searchapi
+          image: myproger.mciro.searchapi:latest
+          ports:
+            - containerPort: 7000
+              
+        - name: myproger.micro.joblistapi
+          image: myproger.micro.joblistapi:latest
+          ports:
+            - containerPort: 8085
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: elasticsearch
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: elasticsearch
+  template:
+    metadata:
+      labels:
+        app: elasticsearch
+    spec:
+      containers:
+        - name: elasticsearch
+          image: docker.elastic.co/elasticsearch/elasticsearch:7.9.2
+          ports:
+            - containerPort: 9200
+              name: http
+      volumes:
+        - name: elasticsearch-data
+          persistentVolumeClaim:
+            claimName: elasticsearch-data-pvc
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kibana
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kibana
+  template:
+    metadata:
+      labels:
+        app: kibana
+    spec:
+      containers:
+        - name: kibana
+          image: docker.elastic.co/kibana/kibana:7.9.2
+          ports:
+            - containerPort: 5601
+              name: http
+          env:
+            - name: ELASTICSEARCH_URL
+              value: http://elasticsearch:9200
+      volumes:
+        - name: kibana-config
+          persistentVolumeClaim:
+            claimName: kibana-config-pvc

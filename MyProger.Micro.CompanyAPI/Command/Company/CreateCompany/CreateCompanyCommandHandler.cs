@@ -2,7 +2,6 @@ using System.Text.Json;
 using FluentValidation;
 using MediatR;
 using MyProger.Core.Entity.Company;
-using MyProger.Core.Entity.Job;
 using MyProger.Core.Enum.StatusCode;
 using Myproger.Core.Response;
 using MyProger.Core.Response;

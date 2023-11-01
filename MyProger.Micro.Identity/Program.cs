@@ -20,7 +20,13 @@ using NLog.Web;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(o => 
-    o.UseNpgsql(builder.Configuration.GetConnectionString("Db")));
+    o.UseNpgsql(builder.Configuration.GetConnectionString("Db"))
+        .EnableServiceProviderCaching());
+
+builder.Services.AddSwachbackleService()
+    .AddValidators()
+    //! .AddEmail()
+    .AddDatabase();
 
 builder.Services.AddMediatR(x =>
 {
@@ -96,10 +102,6 @@ builder.Services.AddAuthentication(opt => {
     });
 builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("Jwt"));
 builder.Services.AddSingleton<IAuthorizationHandler, RequireScopeHandler>();
-
-builder.Services.AddSwachbackleService()
-    .AddValidators()
-    .AddDatabase();
 
 builder.Services.AddAuthorization();
 

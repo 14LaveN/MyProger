@@ -1,5 +1,6 @@
 using FluentValidation;
 using MyProger.Micro.CompanyAPI.Command.Company.CreateCompany;
+using MyProger.Micro.CompanyAPI.Command.Company.DeleteCompany;
 
 namespace MyProger.Micro.CompanyAPI.Common.Entry;
 
@@ -13,6 +14,7 @@ public static class EntryValidators
         }
         
         services.AddScoped<IValidator<CreateCompanyCommand>, CreateCompanyCommandValidator>();
+        services.AddScoped<IValidator<DeleteCompanyCommand>, DeleteCompanyCommandValidator>();
 
         return services;
     }

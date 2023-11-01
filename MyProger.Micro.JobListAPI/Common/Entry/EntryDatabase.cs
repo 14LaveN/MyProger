@@ -1,3 +1,4 @@
+using Microsoft.Extensions.Options;
 using MyProger.Core.Entity.Likes;
 using MyProger.Micro.JobListAPI.Database;
 using MyProger.Micro.JobListAPI.Database.Interfaces;
@@ -7,12 +8,19 @@ namespace MyProger.Micro.JobListAPI.Common.Entry;
 
 public static class EntryDatabase
 {
-    public static IServiceCollection AddDatabase(this IServiceCollection services)
+    public static IServiceCollection AddDatabase(this IServiceCollection services, IConfiguration configuration)
     {
         if (services is null)
         {
             throw new ArgumentNullException(nameof(services));
         }
+
+        services.AddDistributedMemoryCache();
+        services.AddStackExchangeRedisCache(options =>
+        {
+            var connection = configuration.GetConnectionString("Redis");
+            options.Configuration = connection;
+        });
 
         services.AddTransient<JobDbContext>(provider => new JobDbContext());
         services.AddScoped<IJobRepository, JobRepository>();

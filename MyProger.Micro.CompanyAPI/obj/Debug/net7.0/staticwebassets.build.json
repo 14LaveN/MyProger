@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "qWquzjbk8vXOBg0r0RIy7w8xHOxXAlrIR0E1KN1B5es=",
+  "Source": "MyProger.Micro.CompanyAPI",
+  "BasePath": "_content/MyProger.Micro.CompanyAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "E:\\DotNetProjects\\MyProger\\MyProger.Micro.RabbitMq\\MyProger.Micro.RabbitMq.csproj",
+      "Version": 2,
+      "Source": "MyProger.Micro.RabbitMq",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

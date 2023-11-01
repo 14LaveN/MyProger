@@ -19,6 +19,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E4F99E4-A241-4034-AD26-86CE0E855700}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
+		my-proger.yaml = my-proger.yaml
+		prometheus.yaml = prometheus.yaml
+		grafana.ini = grafana.ini
+		3-deployment-prometheus.yaml = 3-deployment-prometheus.yaml
+		1-deployment-app.yaml = 1-deployment-app.yaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProger.Micro.RabbitMq", "MyProger.Micro.RabbitMq\MyProger.Micro.RabbitMq.csproj", "{FDBDC302-23F7-4109-9EE9-BF6BC5815EFC}"
@@ -28,6 +33,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProger.Micro.JobListAPI", "MyProger.Micro.JobListAPI\MyProger.Micro.JobListAPI.csproj", "{82AD2105-B33C-4D13-BF2B-570F694B2F61}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProger.Micro.CompanyAPI", "MyProger.Micro.CompanyAPI\MyProger.Micro.CompanyAPI.csproj", "{BBF57F1A-D623-4F7D-AD26-3FA2BD44BDE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProger.Mciro.SearchAPI", "MyProger.Mciro.SearchAPI\MyProger.Mciro.SearchAPI.csproj", "{191D8D61-D90F-420C-AB4E-5D44C9AF1EDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,6 +74,10 @@ Global
 		{BBF57F1A-D623-4F7D-AD26-3FA2BD44BDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBF57F1A-D623-4F7D-AD26-3FA2BD44BDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBF57F1A-D623-4F7D-AD26-3FA2BD44BDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191D8D61-D90F-420C-AB4E-5D44C9AF1EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191D8D61-D90F-420C-AB4E-5D44C9AF1EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191D8D61-D90F-420C-AB4E-5D44C9AF1EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191D8D61-D90F-420C-AB4E-5D44C9AF1EDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0B1C5B84-1173-4432-91AE-F813077AC644} = {57C0B797-B6C1-40BB-AC4C-0E83D1FBB4C3}
@@ -76,5 +87,6 @@ Global
 		{3B336C44-DFB4-4889-A7FB-08C653CBB265} = {57C0B797-B6C1-40BB-AC4C-0E83D1FBB4C3}
 		{82AD2105-B33C-4D13-BF2B-570F694B2F61} = {57C0B797-B6C1-40BB-AC4C-0E83D1FBB4C3}
 		{BBF57F1A-D623-4F7D-AD26-3FA2BD44BDE5} = {57C0B797-B6C1-40BB-AC4C-0E83D1FBB4C3}
+		{191D8D61-D90F-420C-AB4E-5D44C9AF1EDE} = {57C0B797-B6C1-40BB-AC4C-0E83D1FBB4C3}
 	EndGlobalSection
 EndGlobal
