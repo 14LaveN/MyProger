@@ -25,9 +25,11 @@
           "MyProger.Core": "1.0.0",
           "MyProger.Micro.Identity": "1.0.0",
           "MyProger.Micro.RabbitMq": "1.0.0",
+          "NEST": "7.17.5",
           "NLog.Web.AspNetCore": "5.3.5",
           "Npgsql": "7.0.6",
           "Polly": "8.0.0",
+          "Prometheus.Client.AspNetCore": "5.0.0",
           "StackExchange.Redis": "2.7.4",
           "Swashbuckle.AspNetCore": "6.5.0",
           "System.Diagnostics.PerformanceCounter": "7.0.0",
@@ -1190,6 +1192,17 @@
           }
         }
       },
+      "NEST/7.17.5": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.17.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.17.5.0"
+          }
+        }
+      },
       "NLog/5.2.5": {
         "runtime": {
           "lib/netstandard2.0/NLog.dll": {
@@ -1296,6 +1309,36 @@
           "lib/net6.0/Prometheus.AspNetCore.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "Prometheus.Client/5.2.0": {
+        "dependencies": {
+          "Prometheus.Client.Abstractions": "5.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      },
+      "Prometheus.Client.Abstractions/5.2.0": {
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.Abstractions.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      },
+      "Prometheus.Client.AspNetCore/5.0.0": {
+        "dependencies": {
+          "Prometheus.Client": "5.2.0"
+        },
+        "runtime": {
+          "lib/net5.0/Prometheus.Client.AspNetCore.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
           }
         }
       },
@@ -2428,6 +2471,13 @@
       "path": "mongodb.libmongocrypt/1.8.0",
       "hashPath": "mongodb.libmongocrypt.1.8.0.nupkg.sha512"
     },
+    "NEST/7.17.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bo9UyuIoVRx4IUQiuC8ZrlZuvAXKIccernC7UUKukQCEmRq2eVIk+gubHlnMQljrP51q0mN4cjgy9vv5uZPkoA==",
+      "path": "nest/7.17.5",
+      "hashPath": "nest.7.17.5.nupkg.sha512"
+    },
     "NLog/5.2.5": {
       "type": "package",
       "serviceable": true,
@@ -2497,6 +2547,27 @@
       "sha512": "sha512-BKxl5cTDFWxXDacEabLwWXJurhXHQIrnpraFww6x8LDFNRRI0ILrV9KnYuozjqRJ4tPr3BWlyjZlKo/byLvAFw==",
       "path": "prometheus-net.aspnetcore/7.1.0-pre-000318-0479f53",
       "hashPath": "prometheus-net.aspnetcore.7.1.0-pre-000318-0479f53.nupkg.sha512"
+    },
+    "Prometheus.Client/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Wa4qzz9WtKmXr2Yii5sOwAaKCzxwwfMg27wrHqrejw54icwRuWRSX68QhvUFwJnCKqpXc7SpIS3kzzmcfrB8w==",
+      "path": "prometheus.client/5.2.0",
+      "hashPath": "prometheus.client.5.2.0.nupkg.sha512"
+    },
+    "Prometheus.Client.Abstractions/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ROwoYLSTmodSTQLQWrqVLNh4ZZyXAA+0wPGKM+1dhCGUPJQm5qjrKMhMVL8Fy6waEU1CFtf+0nLeIsvdDCUFAQ==",
+      "path": "prometheus.client.abstractions/5.2.0",
+      "hashPath": "prometheus.client.abstractions.5.2.0.nupkg.sha512"
+    },
+    "Prometheus.Client.AspNetCore/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MSJqKWEUq4gd9KVgtIEs7JnYUSLWst+4d7zTYCpshbN3JXFLxwYxignWGlEoID9gAdRmU9qKVkPePtcDXEaKug==",
+      "path": "prometheus.client.aspnetcore/5.0.0",
+      "hashPath": "prometheus.client.aspnetcore.5.0.0.nupkg.sha512"
     },
     "RabbitMQ.Client/7.0.0-alpha.0": {
       "type": "package",

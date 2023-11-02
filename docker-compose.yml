@@ -11,13 +11,13 @@
   #    context: .
   #    dockerfile: MyProger.Micro.CompanyAPI/Dockerfile
 
-  myproger.micro.joblistapi:
-    image: myproger.micro.joblistapi:latest
-    build:
-      context: .
-      dockerfile: MyProger.Micro.JobListAPI/Dockerfile
-    ports:
-      - 8050:85
+ #myproger.micro.joblistapi:
+ #  image: myproger.micro.joblistapi:latest
+ #  build:
+ #    context: .
+ #    dockerfile: MyProger.Micro.JobListAPI/Dockerfile
+ #  ports:
+ #    - 8050:85
       
   #myproger.mciro.searchapi:
   #  image: myproger.mciro.searchapi:latest

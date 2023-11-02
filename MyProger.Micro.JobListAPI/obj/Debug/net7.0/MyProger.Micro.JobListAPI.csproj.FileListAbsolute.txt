@@ -177,3 +177,7 @@ E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\Microsoft.
 E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\Microsoft.AI.ServerTelemetryChannel.dll
 E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
 E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\Prometheus.AspNetCore.dll
+E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\Prometheus.Client.dll
+E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\Prometheus.Client.Abstractions.dll
+E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\Prometheus.Client.AspNetCore.dll
+E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\Nest.dll

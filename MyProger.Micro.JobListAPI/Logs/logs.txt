@@ -193,3 +193,45 @@
 2023-11-01 15:52:03.5847 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
 2023-11-01 15:52:03.6071 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\nlog.config
 2023-11-01 15:52:03.6242 Info Configuration initialized.
+2023-11-01 22:31:03.3252 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Property 'type' has blank value, for element 'target(Name=ElasticSearch)' in section 'targets'
+2023-11-01 22:31:03.3944 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-01 22:31:03.3944 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-01 22:31:03.3944 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-01 22:31:03.3944 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 22:31:03.4112 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\nlog.config
+2023-11-01 22:31:03.4230 Info Configuration initialized.
+2023-11-01 22:32:28.0397 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Property 'type' has blank value, for element 'target(Name=ElasticSearch)' in section 'targets'
+2023-11-01 22:32:28.0941 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-01 22:32:28.0941 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-01 22:32:28.0941 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-01 22:32:28.0941 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 22:32:28.1101 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\nlog.config
+2023-11-01 22:32:28.1101 Info Configuration initialized.
+2023-11-01 22:33:10.9263 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Property 'type' has blank value, for element 'target(Name=ElasticSearch)' in section 'targets'
+2023-11-01 22:33:10.9800 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-01 22:33:10.9800 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-01 22:33:10.9800 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-01 22:33:10.9889 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 22:33:10.9889 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\nlog.config
+2023-11-01 22:33:11.0090 Info Configuration initialized.
+2023-11-01 22:34:08.6844 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Property 'type' has blank value, for element 'target(Name=ElasticSearch)' in section 'targets'
+2023-11-01 22:34:08.7388 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-01 22:34:08.7388 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-01 22:34:08.7388 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-01 22:34:08.7388 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 22:34:08.7547 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\nlog.config
+2023-11-01 22:34:08.7814 Info Configuration initialized.
+2023-11-01 22:34:45.1171 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Property 'type' has blank value, for element 'target(Name=ElasticSearch)' in section 'targets'
+2023-11-01 22:34:45.1729 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-01 22:34:45.1729 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-01 22:34:45.1729 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-01 22:34:45.1729 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-01 22:34:45.1892 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\nlog.config
+2023-11-01 22:34:45.1892 Info Configuration initialized.
+2023-11-02 08:22:32.3640 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Property 'type' has blank value, for element 'target(Name=ElasticSearch)' in section 'targets'
+2023-11-02 08:22:32.4044 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 08:22:32.4063 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-02 08:22:32.4063 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-02 08:22:32.4063 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 08:22:32.4063 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.JobListAPI\bin\Debug\net7.0\nlog.config
+2023-11-02 08:22:32.4250 Info Configuration initialized.

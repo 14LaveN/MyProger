@@ -2,6 +2,7 @@ using System.Reflection;
 using System.Text;
 using Elastic.Serilog.Sinks;
 using HealthChecks.UI.Client;
+using Microsoft.ApplicationInsights.Metrics;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.IdentityModel.Tokens;

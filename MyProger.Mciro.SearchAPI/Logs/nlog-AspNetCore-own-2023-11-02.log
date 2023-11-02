@@ -1,0 +1,50 @@
+2023-11-02 10:37:26.5943|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 10:37:26.6281|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 10:37:26.6281|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 10:37:26.6281|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 10:37:26.6394|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-02 10:37:59.5479|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 10:37:59.5634|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 10:37:59.5634|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 10:37:59.5634|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 10:37:59.5634|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-02 10:38:11.9852|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - fdgdfgfd 02.11.2023 10:38:11 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-02 10:38:16.0868|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 02.11.2023 10:38:16 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-02 10:38:16.1792|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/api/v1/search/get-job|action: GetJob|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-02 10:38:39.8153|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - fdgdfgfd 02.11.2023 10:38:39 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-02 10:38:57.8943|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 02.11.2023 10:38:57 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-02 10:39:02.8141|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/api/v1/search/get-job|action: GetJob|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke

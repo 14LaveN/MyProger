@@ -24,11 +24,13 @@
         <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="8.0.0-rc.2.23480.2" />
         <PackageReference Include="Microsoft.Identity.Client" Version="4.57.0" />
         <PackageReference Include="MongoDB.Driver" Version="2.22.0" />
+        <PackageReference Include="NEST" Version="7.17.5" />
         <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.5" />
         <PackageReference Include="Npgsql" Version="7.0.6" />
         <PackageReference Include="Polly" Version="8.0.0" />
         <PackageReference Include="prometheus-net" Version="7.1.0-pre-000318-0479f53" />
         <PackageReference Include="prometheus-net.AspNetCore" Version="7.1.0-pre-000318-0479f53" />
+        <PackageReference Include="Prometheus.Client.AspNetCore" Version="5.0.0" />
         <PackageReference Include="StackExchange.Redis" Version="2.7.4" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
         <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />

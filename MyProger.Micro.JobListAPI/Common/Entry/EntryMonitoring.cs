@@ -14,9 +14,9 @@ public static class EntryMonitoring
             throw new ArgumentNullException(nameof(services));
         }
 
-        services.AddScoped<IMetricsFactory, MetricsFactory>();
-        services.AddScoped<ICounter, Counters>();
-        services.AddTransient<Counter>();
+        //services.AddScoped<IMetricsFactory, MetricsFactory>();
+        //services.AddScoped<ICounter, Counters>();
+        //services.AddTransient<Prometheus.Counter>();
         
         return services;
     }

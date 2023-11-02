@@ -1871,6 +1871,22 @@
           }
         }
       },
+      "NEST/7.17.5": {
+        "type": "package",
+        "dependencies": {
+          "Elasticsearch.Net": "7.17.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/Nest.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "NLog/5.2.5": {
         "type": "package",
         "compile": {
@@ -2030,6 +2046,54 @@
         "runtime": {
           "lib/net6.0/Prometheus.AspNetCore.dll": {
             "related": ".deps.json;.pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Prometheus.Client/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Prometheus.Client.Abstractions": "5.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Prometheus.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Prometheus.Client.Abstractions/5.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Prometheus.Client.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Prometheus.Client.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Prometheus.Client.AspNetCore/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Prometheus.Client": "[5.2.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net5.0/Prometheus.Client.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Prometheus.Client.AspNetCore.dll": {
+            "related": ".xml"
           }
         },
         "frameworkReferences": [
@@ -5307,6 +5371,25 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
+    "NEST/7.17.5": {
+      "sha512": "bo9UyuIoVRx4IUQiuC8ZrlZuvAXKIccernC7UUKukQCEmRq2eVIk+gubHlnMQljrP51q0mN4cjgy9vv5uZPkoA==",
+      "type": "package",
+      "path": "nest/7.17.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Nest.dll",
+        "lib/net461/Nest.pdb",
+        "lib/net461/Nest.xml",
+        "lib/netstandard2.0/Nest.dll",
+        "lib/netstandard2.0/Nest.pdb",
+        "lib/netstandard2.0/Nest.xml",
+        "license.txt",
+        "nest.7.17.5.nupkg.sha512",
+        "nest.nuspec",
+        "nuget-icon.png"
+      ]
+    },
     "NLog/5.2.5": {
       "sha512": "mMXtbAxfNzqkXcBjhJ3wN3rH7kwUZ0JL0GrUBI/lso7+tQ/HC4e5SnlmR3R5qQ9zWbqMbjxeH37rIf0yQGWTiA==",
       "type": "package",
@@ -5531,6 +5614,57 @@
         "lib/net6.0/Prometheus.AspNetCore.xml",
         "prometheus-net.aspnetcore.7.1.0-pre-000318-0479f53.nupkg.sha512",
         "prometheus-net.aspnetcore.nuspec"
+      ]
+    },
+    "Prometheus.Client/5.2.0": {
+      "sha512": "9Wa4qzz9WtKmXr2Yii5sOwAaKCzxwwfMg27wrHqrejw54icwRuWRSX68QhvUFwJnCKqpXc7SpIS3kzzmcfrB8w==",
+      "type": "package",
+      "path": "prometheus.client/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/netstandard2.0/Prometheus.Client.dll",
+        "lib/netstandard2.0/Prometheus.Client.xml",
+        "lib/netstandard2.1/Prometheus.Client.dll",
+        "lib/netstandard2.1/Prometheus.Client.xml",
+        "prometheus.client.5.2.0.nupkg.sha512",
+        "prometheus.client.nuspec"
+      ]
+    },
+    "Prometheus.Client.Abstractions/5.2.0": {
+      "sha512": "ROwoYLSTmodSTQLQWrqVLNh4ZZyXAA+0wPGKM+1dhCGUPJQm5qjrKMhMVL8Fy6waEU1CFtf+0nLeIsvdDCUFAQ==",
+      "type": "package",
+      "path": "prometheus.client.abstractions/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/netstandard2.0/Prometheus.Client.Abstractions.dll",
+        "lib/netstandard2.0/Prometheus.Client.Abstractions.xml",
+        "lib/netstandard2.1/Prometheus.Client.Abstractions.dll",
+        "lib/netstandard2.1/Prometheus.Client.Abstractions.xml",
+        "prometheus.client.abstractions.5.2.0.nupkg.sha512",
+        "prometheus.client.abstractions.nuspec"
+      ]
+    },
+    "Prometheus.Client.AspNetCore/5.0.0": {
+      "sha512": "MSJqKWEUq4gd9KVgtIEs7JnYUSLWst+4d7zTYCpshbN3JXFLxwYxignWGlEoID9gAdRmU9qKVkPePtcDXEaKug==",
+      "type": "package",
+      "path": "prometheus.client.aspnetcore/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net5.0/Prometheus.Client.AspNetCore.dll",
+        "lib/net5.0/Prometheus.Client.AspNetCore.xml",
+        "lib/netcoreapp3.1/Prometheus.Client.AspNetCore.dll",
+        "lib/netcoreapp3.1/Prometheus.Client.AspNetCore.xml",
+        "prometheus.client.aspnetcore.5.0.0.nupkg.sha512",
+        "prometheus.client.aspnetcore.nuspec"
       ]
     },
     "RabbitMQ.Client/7.0.0-alpha.0": {
@@ -6776,9 +6910,11 @@
       "MyProger.Core >= 1.0.0",
       "MyProger.Micro.Identity >= 1.0.0",
       "MyProger.Micro.RabbitMq >= 1.0.0",
+      "NEST >= 7.17.5",
       "NLog.Web.AspNetCore >= 5.3.5",
       "Npgsql >= 7.0.6",
       "Polly >= 8.0.0",
+      "Prometheus.Client.AspNetCore >= 5.0.0",
       "StackExchange.Redis >= 2.7.4",
       "Swashbuckle.AspNetCore >= 6.5.0",
       "System.Diagnostics.PerformanceCounter >= 7.0.0",
@@ -6898,6 +7034,10 @@
             "target": "Package",
             "version": "[2.22.0, )"
           },
+          "NEST": {
+            "target": "Package",
+            "version": "[7.17.5, )"
+          },
           "NLog.Web.AspNetCore": {
             "target": "Package",
             "version": "[5.3.5, )"
@@ -6909,6 +7049,10 @@
           "Polly": {
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "Prometheus.Client.AspNetCore": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "StackExchange.Redis": {
             "target": "Package",

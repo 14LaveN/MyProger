@@ -1,0 +1,204 @@
+2023-11-02 10:37:26.3603|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 10:37:26.4200|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-02 10:37:26.5943|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 
+2023-11-02 10:37:26.6281|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 
+2023-11-02 10:37:26.6281|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.SearchAPI 
+2023-11-02 10:37:26.6281|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURBLL63CLF" received FIN. 
+2023-11-02 10:37:26.6281|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-02 10:37:26.6281|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-02 10:37:26.6394|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI 
+2023-11-02 10:37:26.6394|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLL63CLF" accepted. 
+2023-11-02 10:37:26.6394|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-02 10:37:26.6394|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLL63CLF" started. 
+2023-11-02 10:37:26.6590|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-02 10:37:26.6925|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLL63CLF" stopped. 
+2023-11-02 10:37:26.6925|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURBLL63CLF" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-11-02 10:37:26.7387|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLL63CLG" accepted. 
+2023-11-02 10:37:26.7387|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLL63CLG" started. 
+2023-11-02 10:37:26.7825|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURBLL63CLG established using the following protocol: Tls13 
+2023-11-02 10:37:26.8066|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLL63CLG" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 10:37:26.8066|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLL63CLG" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 10:37:26.8066|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLL63CLG" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 10:37:26.8066|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLL63CLG" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 10:37:26.8066|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLL63CLG" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 10:37:26.8066|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLL63CLG" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 10:37:26.8244|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLL63CLG" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 10:37:26.8403|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2023-11-02 10:37:26.8403|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 10:37:26.8403|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 10:37:26.8566|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-11-02 10:37:26.8566|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 10:37:59.3232|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 10:37:59.3827|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-02 10:37:59.5479|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 
+2023-11-02 10:37:59.5634|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 
+2023-11-02 10:37:59.5634|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.SearchAPI 
+2023-11-02 10:37:59.5634|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-02 10:37:59.5634|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-02 10:37:59.5634|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI 
+2023-11-02 10:37:59.5634|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-02 10:37:59.7525|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURBLV1VU9F" received FIN. 
+2023-11-02 10:37:59.7525|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLV1VU9F" accepted. 
+2023-11-02 10:37:59.7525|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLV1VU9F" started. 
+2023-11-02 10:37:59.7705|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-02 10:37:59.7958|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLV1VU9F" stopped. 
+2023-11-02 10:37:59.7995|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURBLV1VU9F" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-11-02 10:37:59.8420|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLV1VU9G" accepted. 
+2023-11-02 10:37:59.8420|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURBLV1VU9G" started. 
+2023-11-02 10:37:59.8770|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURBLV1VU9G established using the following protocol: Tls13 
+2023-11-02 10:37:59.8975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 10:37:59.8975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 10:37:59.8975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 10:37:59.8975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 10:37:59.8975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 10:37:59.8975|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 10:37:59.9094|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 10:37:59.9235|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2023-11-02 10:37:59.9235|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 10:37:59.9235|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 10:37:59.9421|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html' 
+2023-11-02 10:37:59.9421|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 10:38:00.0625|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-11-02 10:38:00.0625|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending DATA frame for stream ID 1 with length 4759 and flags NONE. 
+2023-11-02 10:38:00.0625|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 10:38:00.0625|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 147.0436ms 
+2023-11-02 10:38:00.1772|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received HEADERS frame for stream ID 3 with length 113 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 10:38:00.1772|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2023-11-02 10:38:00.1772|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 10:38:00.1772|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json' 
+2023-11-02 10:38:00.1772|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 10:38:00.3084|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending HEADERS frame for stream ID 3 with length 35 and flags END_HEADERS. 
+2023-11-02 10:38:00.3084|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending DATA frame for stream ID 3 with length 2113 and flags NONE. 
+2023-11-02 10:38:00.3084|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.6998ms 
+2023-11-02 10:38:00.3084|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 10:38:07.6177|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received HEADERS frame for stream ID 5 with length 69 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 10:38:07.6177|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/api/v1/search/get-job?request=fdgdfgfd - - 
+2023-11-02 10:38:07.6177|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 10:38:07.6177|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/v1/search/get-job' 
+2023-11-02 10:38:07.6177|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' with route pattern 'api/v1/search/get-job' is valid for the request path '/api/v1/search/get-job' 
+2023-11-02 10:38:07.6177|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 10:38:07.6177|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2023-11-02 10:38:07.6252|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 10:38:07.6422|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetJob", controller = "Search"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity]] GetJob(System.String) on controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI). 
+2023-11-02 10:38:07.6422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-11-02 10:38:07.6422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-11-02 10:38:07.6422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-11-02 10:38:07.6422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-11-02 10:38:07.6422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0) 
+2023-11-02 10:38:07.6422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI) 
+2023-11-02 10:38:07.6422|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI) 
+2023-11-02 10:38:07.6650|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'System.String' ... 
+2023-11-02 10:38:07.6650|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'request' of type 'System.String' using the name 'request' in request data ... 
+2023-11-02 10:38:07.6650|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'request' of type 'System.String'. 
+2023-11-02 10:38:07.6650|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'System.String'. 
+2023-11-02 10:38:07.6650|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'System.String' ... 
+2023-11-02 10:38:07.6711|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'System.String'. 
+2023-11-02 10:38:07.6711|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-11-02 10:38:07.6711|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 10:38:07.6711|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 10:38:07.6711|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 10:38:07.6711|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 10:38:07.6711|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) - Validation state: Valid 
+2023-11-02 10:38:07.6711|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) with arguments (fdgdfgfd) 
+2023-11-02 10:38:11.9852|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - fdgdfgfd 02.11.2023 10:38:11 
+2023-11-02 10:38:16.0868|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 02.11.2023 10:38:16 
+2023-11-02 10:38:16.1518|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 10:38:16.1518|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 10:38:16.1518|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 10:38:16.1518|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 10:38:16.1518|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-11-02 10:38:16.1567|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) in 8511.0975ms 
+2023-11-02 10:38:16.1567|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 10:38:16.1792|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 10:38:16.1792|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending HEADERS frame for stream ID 5 with length 60 and flags END_HEADERS. 
+2023-11-02 10:38:16.1792|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending DATA frame for stream ID 5 with length 4474 and flags NONE. 
+2023-11-02 10:38:16.1865|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 10:38:16.1865|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received WINDOW_UPDATE frame for stream ID 5 with length 4 and flags 0x0. 
+2023-11-02 10:38:16.1865|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-02 10:38:20.2534|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/api/v1/search/get-job?request=fdgdfgfd - - - 500 - text/plain;+charset=utf-8 12634.5110ms 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received HEADERS frame for stream ID 7 with length 57 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 10:38:30.2360|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/api/v1/search/get-job?request=fdgdfgfd - - 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/v1/search/get-job' 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' with route pattern 'api/v1/search/get-job' is valid for the request path '/api/v1/search/get-job' 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint. 
+2023-11-02 10:38:30.2360|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 10:38:30.2360|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetJob", controller = "Search"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity]] GetJob(System.String) on controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI). 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0) 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI) 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI) 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'System.String' ... 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'request' of type 'System.String' using the name 'request' in request data ... 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'request' of type 'System.String'. 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'System.String'. 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'System.String' ... 
+2023-11-02 10:38:30.2360|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'System.String'. 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 10:38:30.2360|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) - Validation state: Valid 
+2023-11-02 10:38:30.2360|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) with arguments (fdgdfgfd) 
+2023-11-02 10:38:39.8153|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - fdgdfgfd 02.11.2023 10:38:39 
+2023-11-02 10:38:57.8943|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 02.11.2023 10:38:57 
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-11-02 10:39:02.8141|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) in 32577.465ms 
+2023-11-02 10:39:02.8141|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 10:39:02.8141|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending HEADERS frame for stream ID 7 with length 34 and flags END_HEADERS. 
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending DATA frame for stream ID 7 with length 4474 and flags NONE. 
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2023-11-02 10:39:02.8141|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 10:39:02.8403|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURBLV1VU9G" received WINDOW_UPDATE frame for stream ID 7 with length 4 and flags 0x0. 

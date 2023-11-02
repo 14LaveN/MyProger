@@ -34,7 +34,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProger.Micro.JobListAPI",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProger.Micro.CompanyAPI", "MyProger.Micro.CompanyAPI\MyProger.Micro.CompanyAPI.csproj", "{BBF57F1A-D623-4F7D-AD26-3FA2BD44BDE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProger.Mciro.SearchAPI", "MyProger.Mciro.SearchAPI\MyProger.Mciro.SearchAPI.csproj", "{191D8D61-D90F-420C-AB4E-5D44C9AF1EDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProger.Micro.SearchAPI", "MyProger.Micro.SearchAPI\MyProger.Micro.SearchAPI.csproj", "{191D8D61-D90F-420C-AB4E-5D44C9AF1EDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

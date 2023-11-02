@@ -1,0 +1,14 @@
+2023-11-02 10:37:26.1401 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Property 'type' has blank value, for element 'target(Name=ElasticSearch)' in section 'targets'
+2023-11-02 10:37:26.1802 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 10:37:26.1802 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-02 10:37:26.1802 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-02 10:37:26.1952 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 10:37:26.2031 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\bin\Debug\net7.0\nlog.config
+2023-11-02 10:37:26.2031 Info Configuration initialized.
+2023-11-02 10:37:59.1218 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Property 'type' has blank value, for element 'target(Name=ElasticSearch)' in section 'targets'
+2023-11-02 10:37:59.1589 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 10:37:59.1589 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-02 10:37:59.1589 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-02 10:37:59.1733 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 10:37:59.1733 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\bin\Debug\net7.0\nlog.config
+2023-11-02 10:37:59.1934 Info Configuration initialized.

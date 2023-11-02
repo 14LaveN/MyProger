@@ -385,6 +385,10 @@
               "target": "Package",
               "version": "[2.22.0, )"
             },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[5.3.5, )"
@@ -396,6 +400,10 @@
             "Polly": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Prometheus.Client.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "StackExchange.Redis": {
               "target": "Package",

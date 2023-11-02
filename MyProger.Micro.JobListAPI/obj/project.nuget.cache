@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lwDEIjz3zfwMoLb7h5MpfRHR/h051uT0M/MJwrJdpKi9X7Z2ho+5l54L1lUA975YjBpj5maUgheZsmXbDP18aQ==",
+  "dgSpecHash": "v9NGLSr01nnCSjo80Sp09/YVyEe7kMz0QB6CfEpYCY3RkVXaPHj/jkScqWe3sD1CKN5LZx5T/qXw2z1rWnDqFA==",
   "success": true,
   "projectFilePath": "E:\\DotNetProjects\\MyProger\\MyProger.Micro.JobListAPI\\MyProger.Micro.JobListAPI.csproj",
   "expectedPackageFiles": [
@@ -110,6 +110,7 @@
     "C:\\Users\\Laven\\.nuget\\packages\\mongodb.driver\\2.22.0\\mongodb.driver.2.22.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\mongodb.driver.core\\2.22.0\\mongodb.driver.core.2.22.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\mongodb.libmongocrypt\\1.8.0\\mongodb.libmongocrypt.1.8.0.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\nlog\\5.2.5\\nlog.5.2.5.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\nlog.extensions.logging\\5.3.5\\nlog.extensions.logging.5.3.5.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.5\\nlog.web.aspnetcore.5.3.5.nupkg.sha512",
@@ -120,6 +121,9 @@
     "C:\\Users\\Laven\\.nuget\\packages\\polly.core\\8.0.0\\polly.core.8.0.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\prometheus-net\\7.1.0-pre-000318-0479f53\\prometheus-net.7.1.0-pre-000318-0479f53.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\prometheus-net.aspnetcore\\7.1.0-pre-000318-0479f53\\prometheus-net.aspnetcore.7.1.0-pre-000318-0479f53.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\prometheus.client\\5.2.0\\prometheus.client.5.2.0.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\prometheus.client.abstractions\\5.2.0\\prometheus.client.abstractions.5.2.0.nupkg.sha512",
+    "C:\\Users\\Laven\\.nuget\\packages\\prometheus.client.aspnetcore\\5.0.0\\prometheus.client.aspnetcore.5.0.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\rabbitmq.client\\7.0.0-alpha.0\\rabbitmq.client.7.0.0-alpha.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\serilog\\2.9.0\\serilog.2.9.0.nupkg.sha512",
     "C:\\Users\\Laven\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
