@@ -11,6 +11,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="App.Metrics.Formatters.Prometheus" Version="4.4.0-preview.0.9" />
         <PackageReference Include="Elasticsearch.Net" Version="7.17.5" />
         <PackageReference Include="FluentValidation" Version="11.8.0" />
         <PackageReference Include="MediatR" Version="12.1.1" />
@@ -18,7 +19,16 @@
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9"/>
         <PackageReference Include="NEST" Version="7.17.5" />
         <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.5" />
+        <PackageReference Include="prometheus-net" Version="8.1.0" />
+        <PackageReference Include="Prometheus.Client" Version="5.2.0" />
+        <PackageReference Include="Prometheus.Client.AspNetCore" Version="5.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+        <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.5.0" />
+        <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.5.0" />
+        <PackageReference Include="OpenTelemetry.Exporter.Prometheus.AspNetCore" Version="1.5.0-rc.1" />
+        <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.5.0" />
+        <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.5.0-beta.1" />
+        <PackageReference Include="OpenTelemetry.Instrumentation.Http" Version="1.5.0-beta.1" />
     </ItemGroup>
 
     <ItemGroup>

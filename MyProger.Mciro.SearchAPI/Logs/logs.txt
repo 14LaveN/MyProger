@@ -12,3 +12,39 @@
 2023-11-02 10:37:59.1733 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
 2023-11-02 10:37:59.1733 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\bin\Debug\net7.0\nlog.config
 2023-11-02 10:37:59.1934 Info Configuration initialized.
+2023-11-02 14:01:56.9145 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'ElasticSearch' - Verify type-alias and check extension is included.
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2023-11-02 14:01:56.9754 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 14:01:56.9754 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-02 14:01:56.9754 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-02 14:01:56.9897 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 14:01:56.9897 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\bin\Debug\net7.0\nlog.config
+2023-11-02 14:01:57.0104 Info Configuration initialized.
+2023-11-02 14:04:16.5220 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'ElasticSearch' - Verify type-alias and check extension is included.
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2023-11-02 14:04:16.5835 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 14:04:16.5835 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-02 14:04:16.5835 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-02 14:04:16.5979 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 14:04:16.5979 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\bin\Debug\net7.0\nlog.config
+2023-11-02 14:04:16.6183 Info Configuration initialized.
+2023-11-02 14:11:14.2368 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'ElasticSearch' - Verify type-alias and check extension is included.
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2023-11-02 14:11:14.3085 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 14:11:14.3085 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-02 14:11:14.3116 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-02 14:11:14.3116 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 14:11:14.3339 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\bin\Debug\net7.0\nlog.config
+2023-11-02 14:11:14.3470 Info Configuration initialized.
+2023-11-02 14:15:12.5297 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to create Target with unknown type-alias: 'ElasticSearch' - Verify type-alias and check extension is included.
+   at NLog.Config.FactoryExtensions.CreateInstance[TBaseType](IFactory`1 factory, String typeAlias)
+   at NLog.Config.LoggingConfigurationParser.FactoryCreateInstance[T](String typeName, IFactory`1 factory)
+2023-11-02 14:15:12.5922 Info Registered target NLog.Targets.FileTarget(Name=allfile)
+2023-11-02 14:15:12.5943 Info Registered target NLog.Targets.FileTarget(Name=ownFile-web)
+2023-11-02 14:15:12.5943 Info Registered target NLog.Targets.ConsoleTarget(Name=lifetimeConsole)
+2023-11-02 14:15:12.5943 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.5.2160. Product version: 5.2.5+7c014325443d65541200b698a50b9dd4ec30c7f0. GlobalAssemblyCache: False
+2023-11-02 14:15:12.6151 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\bin\Debug\net7.0\nlog.config
+2023-11-02 14:15:12.6271 Info Configuration initialized.

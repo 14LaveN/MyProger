@@ -25,6 +25,11 @@ builder.Services.AddLogging();
 
 builder.Services.AddRabbitMq("JobList");
 
+builder.Services.AddMetricServer(options =>
+{
+    options.Url = "http://localhost:9090";
+});
+
 builder.Services.AddHealthChecks()
     .AddCheck<JobDbHealthCheck>(nameof(JobDbHealthCheck));
 
@@ -118,7 +123,7 @@ app.UseEndpoints(endpoints =>
     });
 });
 
-app.UseMetricServer(5000, "/prometheus");
+app.UseMetricServer();
 
 app.MapControllers();
 

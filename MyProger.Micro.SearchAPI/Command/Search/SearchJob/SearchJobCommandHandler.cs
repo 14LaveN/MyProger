@@ -32,6 +32,7 @@ public class SearchJobCommandHandler
 
     public async Task<IBaseResponse<List<JobEntity>>> Handle(SearchJobCommand request,
         CancellationToken cancellationToken)
+    
     {
         try
         {

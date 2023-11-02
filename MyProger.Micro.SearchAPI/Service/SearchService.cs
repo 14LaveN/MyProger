@@ -12,7 +12,7 @@ public class SearchService : IDisposable, ISearchService
         var settings = new ConnectionSettings(new Uri( "http://localhost:9200"))
             .DefaultIndex("jobs");
         
-        _client = new ElasticClient(settings);
+        _client = new ElasticClient(settings); 
         
         // Создание индекса и мэппинга
         _client.Indices.Create("jobs", c => c

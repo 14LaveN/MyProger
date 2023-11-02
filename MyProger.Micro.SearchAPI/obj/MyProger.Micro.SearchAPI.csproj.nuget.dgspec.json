@@ -124,6 +124,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "App.Metrics.Formatters.Prometheus": {
+              "target": "Package",
+              "version": "[4.4.0-preview.0.9, )"
+            },
             "Elasticsearch.Net": {
               "target": "Package",
               "version": "[7.17.5, )"
@@ -152,9 +156,45 @@
               "target": "Package",
               "version": "[5.3.5, )"
             },
+            "OpenTelemetry.Exporter.Console": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "OpenTelemetry.Exporter.Prometheus.AspNetCore": {
+              "target": "Package",
+              "version": "[1.5.0-rc.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.5.0-beta.1, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.5.0-beta.1, )"
+            },
+            "Prometheus.Client": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Prometheus.Client.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [

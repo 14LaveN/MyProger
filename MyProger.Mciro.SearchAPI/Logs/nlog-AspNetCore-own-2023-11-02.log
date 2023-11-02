@@ -48,3 +48,24 @@
    at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/api/v1/search/get-job|action: GetJob|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-02 14:01:57.4611|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 14:01:57.4927|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 14:01:57.4927|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 14:01:57.4927|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 14:01:57.4927|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-02 14:04:17.0490|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 14:04:17.0490|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 14:04:17.0490|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 14:04:17.0490|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 14:04:17.0490|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-02 14:11:14.8589|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 14:11:14.8787|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 14:11:14.8787|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 14:11:14.8787|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 14:11:14.8787|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-02 14:15:13.0579|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 14:15:13.0719|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-02 14:15:13.0719|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 14:15:13.0719|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-02 14:15:13.0776|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-02 14:16:30.2036|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - dsfsd 02.11.2023 14:16:30 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle

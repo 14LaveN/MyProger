@@ -26,7 +26,8 @@ builder.Services.AddMediatR(x =>
 });
 
 builder.Services.AddSwachbackleService()
-    .AddValidators();
+    .AddValidators()
+    .AddMonitoring(builder.Environment);
 
 builder.Services.AddLogging(options =>
 {
@@ -60,6 +61,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapPrometheusScrapingEndpoint();
+
+app.UseOpenTelemetryPrometheusScrapingEndpoint("/prometheus");
 
 app.UseDeveloperExceptionPage();
 
