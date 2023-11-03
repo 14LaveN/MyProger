@@ -124,10 +124,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "App.Metrics.Formatters.Prometheus": {
-              "target": "Package",
-              "version": "[4.4.0-preview.0.9, )"
-            },
             "Elasticsearch.Net": {
               "target": "Package",
               "version": "[7.17.5, )"
@@ -143,6 +139,14 @@
             "MediatR.Contracts": {
               "target": "Package",
               "version": "[2.0.1, )"
+            },
+            "Microsoft.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.ApplicationInsights.EventCounterCollector": {
+              "target": "Package",
+              "version": "[2.21.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -164,10 +168,6 @@
               "target": "Package",
               "version": "[1.5.0, )"
             },
-            "OpenTelemetry.Exporter.Prometheus.AspNetCore": {
-              "target": "Package",
-              "version": "[1.5.0-rc.1, )"
-            },
             "OpenTelemetry.Extensions.Hosting": {
               "target": "Package",
               "version": "[1.5.0, )"
@@ -180,21 +180,25 @@
               "target": "Package",
               "version": "[1.5.0-beta.1, )"
             },
-            "Prometheus.Client": {
-              "target": "Package",
-              "version": "[5.2.0, )"
-            },
             "Prometheus.Client.AspNetCore": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Prometheus.Client.HttpRequestDurations": {
+              "target": "Package",
+              "version": "[3.6.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
             },
-            "prometheus-net": {
+            "prometheus-net.AspNetCore": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[7.1.0-pre-000318-0479f53, )"
+            },
+            "prometheus-net.DotNetRuntime": {
+              "target": "Package",
+              "version": "[4.4.0, )"
             }
           },
           "imports": [

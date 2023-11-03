@@ -1481,3 +1481,653 @@
 2023-11-02 14:16:30.1719|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURFFB9DBOC" received PING frame for stream ID 0 with length 8 and flags NONE. 
 2023-11-02 14:16:30.1719|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURFFB9DBOC" sending PING frame for stream ID 0 with length 8 and flags ACK. 
 2023-11-02 14:16:30.2036|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - dsfsd 02.11.2023 14:16:30 
+2023-11-02 16:44:39.7749|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 16:45:15.9816|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 16:46:15.9572|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 16:46:16.0718|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-02 16:46:16.2845|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 
+2023-11-02 16:46:16.2845|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 
+2023-11-02 16:46:16.2845|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.SearchAPI 
+2023-11-02 16:46:16.2845|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-02 16:46:16.2845|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-02 16:46:16.2845|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI 
+2023-11-02 16:46:16.2954|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-02 16:46:16.7610|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURI3OFFOTM" received FIN. 
+2023-11-02 16:46:16.7610|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURI3OFFOTM" accepted. 
+2023-11-02 16:46:16.7655|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURI3OFFOTM" started. 
+2023-11-02 16:46:16.7655|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-02 16:46:16.7820|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURI3OFFOTM" stopped. 
+2023-11-02 16:46:16.7820|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURI3OFFOTM" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-11-02 16:46:16.8662|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURI3OFFOTN" accepted. 
+2023-11-02 16:46:16.8662|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURI3OFFOTN" started. 
+2023-11-02 16:46:16.9025|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURI3OFFOTN established using the following protocol: Tls13 
+2023-11-02 16:46:16.9227|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 16:46:16.9227|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 16:46:16.9227|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 16:46:16.9227|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 16:46:16.9227|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 16:46:16.9227|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 16:46:16.9227|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 16:46:16.9576|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2023-11-02 16:46:16.9576|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 16:46:16.9576|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:17.0553|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-11-02 16:46:17.0553|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending DATA frame for stream ID 1 with length 4759 and flags NONE. 
+2023-11-02 16:46:17.0613|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 16:46:17.0613|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 105.4922ms 
+2023-11-02 16:46:17.2133|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received HEADERS frame for stream ID 3 with length 113 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 16:46:17.2133|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2023-11-02 16:46:17.2133|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:17.3173|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2023-11-02 16:46:17.3173|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending DATA frame for stream ID 3 with length 2113 and flags NONE. 
+2023-11-02 16:46:17.3173|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.0152ms 
+2023-11-02 16:46:17.3173|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 16:46:21.2230|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURI3OFFOTO" accepted. 
+2023-11-02 16:46:21.2230|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURI3OFFOTO" started. 
+2023-11-02 16:46:21.2230|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURI3OFFOTO established using the following protocol: Tls13 
+2023-11-02 16:46:21.2394|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 16:46:21.2394|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 16:46:21.2394|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received SETTINGS frame for stream ID 0 with length 12 and flags NONE. 
+2023-11-02 16:46:21.2394|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 16:46:21.2394|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 16:46:21.2394|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 16:46:21.2737|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received HEADERS frame for stream ID 1 with length 383 and flags END_HEADERS. 
+2023-11-02 16:46:21.2737|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received DATA frame for stream ID 1 with length 1163 and flags NONE. 
+2023-11-02 16:46:21.2737|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 16:46:21.2737|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 16:46:21.2737|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:21.2737|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 16:46:21.2887|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 16:46:21.2887|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 16:46:21.2887|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 13.7340ms 
+2023-11-02 16:46:21.2887|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending HEADERS frame for stream ID 1 with length 45 and flags END_STREAM, END_HEADERS. 
+2023-11-02 16:46:21.2887|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURI3OFFOTO", Request id "0HMURI3OFFOTO:00000001": started reading request body. 
+2023-11-02 16:46:21.2887|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURI3OFFOTO", Request id "0HMURI3OFFOTO:00000001": done reading request body. 
+2023-11-02 16:46:21.2887|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 16:46:21.2887|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 16:46:48.2378|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received HEADERS frame for stream ID 5 with length 59 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 16:46:48.2378|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 16:46:48.2378|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 16:46:48.2378|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/metrics - - 
+2023-11-02 16:46:48.2378|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:48.2378|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 16:46:48.2378|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/metrics' 
+2023-11-02 16:46:48.2378|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 16:46:48.2378|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/metrics - - - 404 0 - 4.2605ms 
+2023-11-02 16:46:48.2378|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending HEADERS frame for stream ID 5 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 16:46:49.8070|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received HEADERS frame for stream ID 7 with length 48 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 16:46:49.8070|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/metrics - - 
+2023-11-02 16:46:49.8070|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:49.8070|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 16:46:49.8070|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/metrics' 
+2023-11-02 16:46:49.8070|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 16:46:49.8070|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/metrics - - - 404 0 - 0.2462ms 
+2023-11-02 16:46:49.8070|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending HEADERS frame for stream ID 7 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 16:46:50.5354|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received HEADERS frame for stream ID 9 with length 31 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 16:46:50.5354|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/metrics - - 
+2023-11-02 16:46:50.5354|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:50.5354|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 16:46:50.5354|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/metrics' 
+2023-11-02 16:46:50.5354|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 16:46:50.5354|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/metrics - - - 404 0 - 0.2435ms 
+2023-11-02 16:46:50.5354|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending HEADERS frame for stream ID 9 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 16:46:51.3639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received HEADERS frame for stream ID 3 with length 383 and flags END_HEADERS. 
+2023-11-02 16:46:51.3639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received DATA frame for stream ID 3 with length 1496 and flags NONE. 
+2023-11-02 16:46:51.3639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 16:46:51.3639|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 16:46:51.3639|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:51.3639|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 16:46:51.3639|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 16:46:51.3639|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 16:46:51.3639|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.2895ms 
+2023-11-02 16:46:51.3639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending HEADERS frame for stream ID 3 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 16:46:51.3639|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURI3OFFOTO", Request id "0HMURI3OFFOTO:00000003": started reading request body. 
+2023-11-02 16:46:51.3639|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURI3OFFOTO", Request id "0HMURI3OFFOTO:00000003": done reading request body. 
+2023-11-02 16:46:51.3639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 16:46:51.3639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 16:46:56.1566|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received HEADERS frame for stream ID 11 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 16:46:56.1566|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/prometheus - - 
+2023-11-02 16:46:56.1566|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:56.1566|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 16:46:56.1566|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 16:46:56.1566|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 16:46:56.1566|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending HEADERS frame for stream ID 11 with length 106 and flags END_HEADERS. 
+2023-11-02 16:46:56.1566|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending DATA frame for stream ID 11 with length 6755 and flags NONE. 
+2023-11-02 16:46:56.1566|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 16:46:56.1566|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTN" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2023-11-02 16:46:56.1566|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 12.3214ms 
+2023-11-02 16:46:56.3789|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received HEADERS frame for stream ID 5 with length 383 and flags END_HEADERS. 
+2023-11-02 16:46:56.3789|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received DATA frame for stream ID 5 with length 677 and flags NONE. 
+2023-11-02 16:46:56.3789|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-02 16:46:56.3789|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 16:46:56.3789|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 16:46:56.3789|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 16:46:56.3789|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 16:46:56.3789|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 16:46:56.3789|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.1653ms 
+2023-11-02 16:46:56.3789|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending HEADERS frame for stream ID 5 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 16:46:56.3789|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURI3OFFOTO", Request id "0HMURI3OFFOTO:00000005": started reading request body. 
+2023-11-02 16:46:56.3789|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURI3OFFOTO", Request id "0HMURI3OFFOTO:00000005": done reading request body. 
+2023-11-02 16:46:56.3789|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 16:46:56.3789|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 16:48:06.2601|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURI3OFFOTO" received FIN. 
+2023-11-02 16:48:06.2968|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HMURI3OFFOTO completed. 
+2023-11-02 16:48:06.2968|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURI3OFFOTO" is closed. The last processed stream ID was 5. 
+2023-11-02 16:48:06.2968|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURI3OFFOTO" sending FIN because: "The client closed the connection." 
+2023-11-02 16:48:06.2968|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURI3OFFOTO" stopped. 
+2023-11-02 18:19:02.7497|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 18:19:02.8479|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-02 18:19:03.0451|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 
+2023-11-02 18:19:03.0550|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 
+2023-11-02 18:19:03.0550|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.SearchAPI 
+2023-11-02 18:19:03.0550|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-02 18:19:03.0550|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-02 18:19:03.0550|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI 
+2023-11-02 18:19:03.0550|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-02 18:19:03.4949|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURJNJG04GC" received FIN. 
+2023-11-02 18:19:03.4991|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJNJG04GC" accepted. 
+2023-11-02 18:19:03.4991|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJNJG04GC" started. 
+2023-11-02 18:19:03.4991|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-02 18:19:03.5165|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJNJG04GC" stopped. 
+2023-11-02 18:19:03.5165|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURJNJG04GC" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-11-02 18:19:03.6024|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJNJG04GD" accepted. 
+2023-11-02 18:19:03.6024|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJNJG04GD" started. 
+2023-11-02 18:19:03.6483|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURJNJG04GD established using the following protocol: Tls13 
+2023-11-02 18:19:03.6701|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:19:03.6715|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:19:03.6715|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:19:03.6715|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:19:03.6715|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:19:03.6715|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:19:03.6715|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:19:03.7046|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2023-11-02 18:19:03.7046|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 18:19:03.7046|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:19:03.8029|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-11-02 18:19:03.8029|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending DATA frame for stream ID 1 with length 4759 and flags NONE. 
+2023-11-02 18:19:03.8029|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 18:19:03.8029|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 106.0335ms 
+2023-11-02 18:19:03.9151|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received HEADERS frame for stream ID 3 with length 113 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:19:03.9151|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2023-11-02 18:19:03.9151|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:19:04.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending HEADERS frame for stream ID 3 with length 65 and flags END_HEADERS. 
+2023-11-02 18:19:04.0197|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.7210ms 
+2023-11-02 18:19:04.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending DATA frame for stream ID 3 with length 2113 and flags NONE. 
+2023-11-02 18:19:04.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 18:19:07.9999|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJNJG04GE" accepted. 
+2023-11-02 18:19:07.9999|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJNJG04GE" started. 
+2023-11-02 18:19:07.9999|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURJNJG04GE established using the following protocol: Tls13 
+2023-11-02 18:19:08.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:19:08.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:19:08.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received SETTINGS frame for stream ID 0 with length 12 and flags NONE. 
+2023-11-02 18:19:08.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:19:08.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:19:08.0197|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:19:08.0531|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received HEADERS frame for stream ID 1 with length 383 and flags END_HEADERS. 
+2023-11-02 18:19:08.0531|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received DATA frame for stream ID 1 with length 1163 and flags NONE. 
+2023-11-02 18:19:08.0531|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 18:19:08.0531|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:19:08.0531|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:19:08.0531|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:19:08.0685|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:19:08.0685|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:19:08.0685|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 14.0198ms 
+2023-11-02 18:19:08.0685|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending HEADERS frame for stream ID 1 with length 45 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:19:08.0685|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJNJG04GE", Request id "0HMURJNJG04GE:00000001": started reading request body. 
+2023-11-02 18:19:08.0685|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJNJG04GE", Request id "0HMURJNJG04GE:00000001": done reading request body. 
+2023-11-02 18:19:08.0685|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:19:08.0685|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:19:12.4579|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received HEADERS frame for stream ID 5 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:19:12.4579|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/prometheus - - 
+2023-11-02 18:19:12.4579|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:19:12.4579|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:19:12.4579|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 18:19:12.4579|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:19:12.4714|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending HEADERS frame for stream ID 5 with length 106 and flags END_HEADERS. 
+2023-11-02 18:19:12.4714|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending DATA frame for stream ID 5 with length 6744 and flags NONE. 
+2023-11-02 18:19:12.4714|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:19:12.4714|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-02 18:19:12.4714|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 16.1680ms 
+2023-11-02 18:19:13.1008|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received HEADERS frame for stream ID 3 with length 383 and flags END_HEADERS. 
+2023-11-02 18:19:13.1008|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received DATA frame for stream ID 3 with length 677 and flags NONE. 
+2023-11-02 18:19:13.1008|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 18:19:13.1008|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:19:13.1008|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:19:13.1008|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:19:13.1008|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:19:13.1008|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:19:13.1008|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.2336ms 
+2023-11-02 18:19:13.1008|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending HEADERS frame for stream ID 3 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:19:13.1008|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJNJG04GE", Request id "0HMURJNJG04GE:00000003": started reading request body. 
+2023-11-02 18:19:13.1008|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJNJG04GE", Request id "0HMURJNJG04GE:00000003": done reading request body. 
+2023-11-02 18:19:13.1008|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:19:13.1008|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:19:25.7092|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received HEADERS frame for stream ID 7 with length 35 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:19:25.7092|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:19:25.7092|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:19:25.7092|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/metrics - - 
+2023-11-02 18:19:25.7092|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:19:25.7092|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:19:25.7092|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/metrics' 
+2023-11-02 18:19:25.7092|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:19:25.7092|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/metrics - - - 404 0 - 0.3717ms 
+2023-11-02 18:19:25.7092|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GD" sending HEADERS frame for stream ID 7 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:19:28.1302|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received HEADERS frame for stream ID 5 with length 383 and flags END_HEADERS. 
+2023-11-02 18:19:28.1302|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received DATA frame for stream ID 5 with length 668 and flags NONE. 
+2023-11-02 18:19:28.1302|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-02 18:19:28.1302|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:19:28.1302|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:19:28.1302|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:19:28.1302|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:19:28.1302|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:19:28.1302|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.2691ms 
+2023-11-02 18:19:28.1302|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJNJG04GE", Request id "0HMURJNJG04GE:00000005": started reading request body. 
+2023-11-02 18:19:28.1302|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending HEADERS frame for stream ID 5 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:19:28.1302|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJNJG04GE", Request id "0HMURJNJG04GE:00000005": done reading request body. 
+2023-11-02 18:19:28.1302|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:19:28.1302|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJNJG04GE" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:20:18.2220|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 18:20:19.0575|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-02 18:20:19.2352|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 
+2023-11-02 18:20:19.2352|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 
+2023-11-02 18:20:19.2352|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.SearchAPI 
+2023-11-02 18:20:19.2352|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-02 18:20:19.2352|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-02 18:20:19.2352|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI 
+2023-11-02 18:20:19.2352|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-02 18:20:23.5798|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJOBBO2FU" accepted. 
+2023-11-02 18:20:23.5798|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJOBBO2FU" started. 
+2023-11-02 18:20:23.6223|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURJOBBO2FU established using the following protocol: Tls13 
+2023-11-02 18:20:23.6440|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:20:23.6440|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:20:23.6440|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:20:23.6440|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:20:23.6440|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:20:23.6440|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" received HEADERS frame for stream ID 1 with length 1628 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:20:23.6576|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:20:23.6800|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2023-11-02 18:20:23.6800|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 18:20:23.6800|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:20:23.7771|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-11-02 18:20:23.7771|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending DATA frame for stream ID 1 with length 4759 and flags NONE. 
+2023-11-02 18:20:23.7827|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 18:20:23.7827|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 104.2961ms 
+2023-11-02 18:20:23.9316|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" received HEADERS frame for stream ID 3 with length 113 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:20:23.9316|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2023-11-02 18:20:23.9316|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:20:24.0313|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending HEADERS frame for stream ID 3 with length 35 and flags END_HEADERS. 
+2023-11-02 18:20:24.0313|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 96.9118ms 
+2023-11-02 18:20:24.0313|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending DATA frame for stream ID 3 with length 2113 and flags NONE. 
+2023-11-02 18:20:24.0313|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 18:20:24.2078|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJOBBO2FV" accepted. 
+2023-11-02 18:20:24.2078|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJOBBO2FV" started. 
+2023-11-02 18:20:24.2078|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURJOBBO2FV established using the following protocol: Tls13 
+2023-11-02 18:20:24.2239|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:20:24.2239|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:20:24.2239|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received SETTINGS frame for stream ID 0 with length 12 and flags NONE. 
+2023-11-02 18:20:24.2239|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:20:24.2239|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:20:24.2239|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:20:24.2627|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received HEADERS frame for stream ID 1 with length 385 and flags END_HEADERS. 
+2023-11-02 18:20:24.2627|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received DATA frame for stream ID 1 with length 1163 and flags NONE. 
+2023-11-02 18:20:24.2627|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 18:20:24.2627|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:20:24.2627|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:20:24.2655|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:20:24.2655|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:20:24.2655|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:20:24.2655|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 13.4609ms 
+2023-11-02 18:20:24.2655|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" sending HEADERS frame for stream ID 1 with length 45 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:20:24.2655|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:20:24.2655|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:20:24.2805|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJOBBO2FV", Request id "0HMURJOBBO2FV:00000001": started reading request body. 
+2023-11-02 18:20:24.2805|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJOBBO2FV", Request id "0HMURJOBBO2FV:00000001": done reading request body. 
+2023-11-02 18:20:27.9422|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" received HEADERS frame for stream ID 5 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:20:27.9422|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/prometheus - - 
+2023-11-02 18:20:27.9422|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:20:27.9422|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:20:27.9422|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 18:20:27.9422|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:20:27.9573|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending HEADERS frame for stream ID 5 with length 106 and flags END_HEADERS. 
+2023-11-02 18:20:27.9573|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending DATA frame for stream ID 5 with length 6744 and flags NONE. 
+2023-11-02 18:20:27.9573|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FU" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-02 18:20:27.9573|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 17.6002ms 
+2023-11-02 18:20:29.3024|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received HEADERS frame for stream ID 3 with length 383 and flags END_HEADERS. 
+2023-11-02 18:20:29.3024|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received DATA frame for stream ID 3 with length 677 and flags NONE. 
+2023-11-02 18:20:29.3024|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 18:20:29.3024|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:20:29.3024|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:20:29.3024|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:20:29.3024|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:20:29.3024|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:20:29.3024|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.1760ms 
+2023-11-02 18:20:29.3024|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" sending HEADERS frame for stream ID 3 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:20:29.3024|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJOBBO2FV", Request id "0HMURJOBBO2FV:00000003": started reading request body. 
+2023-11-02 18:20:29.3024|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJOBBO2FV", Request id "0HMURJOBBO2FV:00000003": done reading request body. 
+2023-11-02 18:20:29.3024|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:20:29.3024|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJOBBO2FV" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:21:59.3437|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 18:21:59.6621|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-02 18:21:59.8454|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 
+2023-11-02 18:21:59.8454|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 
+2023-11-02 18:21:59.8454|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.SearchAPI 
+2023-11-02 18:21:59.8454|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-02 18:21:59.8454|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-02 18:21:59.8454|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI 
+2023-11-02 18:21:59.8454|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-02 18:22:04.1920|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJP9B8FFC" accepted. 
+2023-11-02 18:22:04.1920|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJP9B8FFC" started. 
+2023-11-02 18:22:04.2362|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURJP9B8FFC established using the following protocol: Tls13 
+2023-11-02 18:22:04.2586|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:22:04.2586|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:22:04.2586|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:22:04.2586|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:22:04.2586|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:22:04.2586|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" received HEADERS frame for stream ID 1 with length 1628 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:22:04.2720|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:22:04.2903|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" received RST_STREAM frame for stream ID 1 with length 4 and flags 0x0. 
+2023-11-02 18:22:04.2965|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" received HEADERS frame for stream ID 3 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:22:04.2965|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/prometheus - - 
+2023-11-02 18:22:04.2965|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2023-11-02 18:22:04.2965|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 18:22:04.2965|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 18:22:04.2965|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:22:04.2965|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:22:04.3287|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:22:04.3455|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 18:22:04.3455|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:22:04.3455|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" sending HEADERS frame for stream ID 3 with length 114 and flags END_HEADERS. 
+2023-11-02 18:22:04.3455|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" sending DATA frame for stream ID 3 with length 6 and flags NONE. 
+2023-11-02 18:22:04.3455|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFC" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 18:22:04.3455|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 57.9294ms 
+2023-11-02 18:22:04.4042|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 107.3523ms 
+2023-11-02 18:22:04.8132|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJP9B8FFD" accepted. 
+2023-11-02 18:22:04.8132|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJP9B8FFD" started. 
+2023-11-02 18:22:04.8132|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURJP9B8FFD established using the following protocol: Tls13 
+2023-11-02 18:22:04.8290|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:22:04.8290|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:22:04.8290|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" received SETTINGS frame for stream ID 0 with length 12 and flags NONE. 
+2023-11-02 18:22:04.8290|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:22:04.8290|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:22:04.8290|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:22:04.8620|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" received HEADERS frame for stream ID 1 with length 383 and flags END_HEADERS. 
+2023-11-02 18:22:04.8620|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" received DATA frame for stream ID 1 with length 1124 and flags NONE. 
+2023-11-02 18:22:04.8620|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" received DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 18:22:04.8620|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:22:04.8620|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:22:04.8620|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:22:04.8620|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:22:04.8620|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:22:04.8620|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.8707ms 
+2023-11-02 18:22:04.8620|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" sending HEADERS frame for stream ID 1 with length 45 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:22:04.8620|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:22:04.8620|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJP9B8FFD" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:22:04.8620|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJP9B8FFD", Request id "0HMURJP9B8FFD:00000001": started reading request body. 
+2023-11-02 18:22:04.8620|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJP9B8FFD", Request id "0HMURJP9B8FFD:00000001": done reading request body. 
+2023-11-02 18:23:06.1756|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 18:23:06.2753|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-02 18:23:06.4637|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 
+2023-11-02 18:23:06.4729|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 
+2023-11-02 18:23:06.4729|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.SearchAPI 
+2023-11-02 18:23:06.4729|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-02 18:23:06.4729|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-02 18:23:06.4729|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI 
+2023-11-02 18:23:06.4729|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-02 18:23:06.4995|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURJPRTF8DJ" received FIN. 
+2023-11-02 18:23:06.4995|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJPRTF8DJ" accepted. 
+2023-11-02 18:23:06.4995|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJPRTF8DJ" started. 
+2023-11-02 18:23:06.5151|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-02 18:23:06.5151|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJPRTF8DJ" stopped. 
+2023-11-02 18:23:06.5151|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMURJPRTF8DJ" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-11-02 18:23:06.6028|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJPRTF8DK" accepted. 
+2023-11-02 18:23:06.6028|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJPRTF8DK" started. 
+2023-11-02 18:23:06.6423|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURJPRTF8DK established using the following protocol: Tls13 
+2023-11-02 18:23:06.6629|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:23:06.6629|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:23:06.6629|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:23:06.6629|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:23:06.6629|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:23:06.6629|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received HEADERS frame for stream ID 1 with length 1619 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:23:06.6747|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:23:06.6978|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/index.html - - 
+2023-11-02 18:23:06.6978|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 18:23:06.6978|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:23:06.7985|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS. 
+2023-11-02 18:23:06.7985|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 1 with length 4759 and flags NONE. 
+2023-11-02 18:23:06.7985|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 18:23:06.7985|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/index.html - - - 200 - text/html;charset=utf-8 109.5279ms 
+2023-11-02 18:23:06.9621|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received HEADERS frame for stream ID 3 with length 113 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:23:06.9621|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - 
+2023-11-02 18:23:06.9621|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:23:07.0732|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending HEADERS frame for stream ID 3 with length 35 and flags END_HEADERS. 
+2023-11-02 18:23:07.0732|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 3 with length 2113 and flags NONE. 
+2023-11-02 18:23:07.0732|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.3996ms 
+2023-11-02 18:23:07.0732|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 18:23:11.4152|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJPRTF8DL" accepted. 
+2023-11-02 18:23:11.4152|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJPRTF8DL" started. 
+2023-11-02 18:23:11.4216|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMURJPRTF8DL established using the following protocol: Tls13 
+2023-11-02 18:23:11.4216|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-11-02 18:23:11.4216|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:23:11.4216|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received SETTINGS frame for stream ID 0 with length 12 and flags NONE. 
+2023-11-02 18:23:11.4216|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:23:11.4216|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:23:11.4216|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-11-02 18:23:11.4639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received HEADERS frame for stream ID 1 with length 383 and flags END_HEADERS. 
+2023-11-02 18:23:11.4639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 1 with length 1163 and flags NONE. 
+2023-11-02 18:23:11.4639|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-11-02 18:23:11.4639|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:23:11.4639|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:23:11.4639|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:23:11.4785|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:23:11.4785|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:23:11.4785|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 13.2628ms 
+2023-11-02 18:23:11.4785|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending HEADERS frame for stream ID 1 with length 45 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:23:11.4785|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000001": started reading request body. 
+2023-11-02 18:23:11.4785|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000001": done reading request body. 
+2023-11-02 18:23:11.4785|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:23:11.4785|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:23:13.2795|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received HEADERS frame for stream ID 5 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:23:13.2802|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/prometheus - - 
+2023-11-02 18:23:13.2802|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:23:13.2802|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:23:13.2802|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 18:23:13.2802|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:23:13.2802|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending HEADERS frame for stream ID 5 with length 106 and flags END_HEADERS. 
+2023-11-02 18:23:13.2802|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 5 with length 6734 and flags NONE. 
+2023-11-02 18:23:13.2802|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:23:13.2970|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-02 18:23:13.2970|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 16.7841ms 
+2023-11-02 18:23:16.5040|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received HEADERS frame for stream ID 3 with length 383 and flags END_HEADERS. 
+2023-11-02 18:23:16.5040|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 3 with length 677 and flags NONE. 
+2023-11-02 18:23:16.5040|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-11-02 18:23:16.5040|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:23:16.5040|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:23:16.5040|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:23:16.5040|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:23:16.5040|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:23:16.5040|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.2621ms 
+2023-11-02 18:23:16.5040|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending HEADERS frame for stream ID 3 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:23:16.5040|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000003": started reading request body. 
+2023-11-02 18:23:16.5040|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000003": done reading request body. 
+2023-11-02 18:23:16.5040|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:23:16.5040|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:24:02.2238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received HEADERS frame for stream ID 7 with length 70 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:24:02.2238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:24:02.2238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:24:02.2238|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/prometheus - - 
+2023-11-02 18:24:02.2238|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:24:02.2238|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:24:02.2238|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 18:24:02.2238|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:24:02.2238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending HEADERS frame for stream ID 7 with length 65 and flags END_HEADERS. 
+2023-11-02 18:24:02.2238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 7 with length 6734 and flags NONE. 
+2023-11-02 18:24:02.2238|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 5.5185ms 
+2023-11-02 18:24:02.2238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2023-11-02 18:24:02.2238|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:24:06.5680|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received HEADERS frame for stream ID 5 with length 383 and flags END_HEADERS. 
+2023-11-02 18:24:06.5680|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 5 with length 677 and flags NONE. 
+2023-11-02 18:24:06.5680|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-11-02 18:24:06.5680|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:24:06.5680|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:24:06.5680|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:24:06.5680|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:24:06.5680|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:24:06.5680|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.2900ms 
+2023-11-02 18:24:06.5680|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending HEADERS frame for stream ID 5 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:24:06.5680|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000005": started reading request body. 
+2023-11-02 18:24:06.5680|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000005": done reading request body. 
+2023-11-02 18:24:06.5680|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:24:06.5680|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:24:12.3236|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received HEADERS frame for stream ID 9 with length 67 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:24:12.3236|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:24:12.3236|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:24:12.3236|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/api/v1/search/get-job?request=dsfdsf - - 
+2023-11-02 18:24:12.3236|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:24:12.3236|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:24:12.3289|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/v1/search/get-job' 
+2023-11-02 18:24:12.3289|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' with route pattern 'api/v1/search/get-job' is valid for the request path '/api/v1/search/get-job' 
+2023-11-02 18:24:12.3289|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 18:24:12.3289|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 18:24:12.3476|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetJob", controller = "Search"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity]] GetJob(System.String) on controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI). 
+2023-11-02 18:24:12.3476|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-11-02 18:24:12.3476|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2023-11-02 18:24:12.3476|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2023-11-02 18:24:12.3476|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-11-02 18:24:12.3476|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000), Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0) 
+2023-11-02 18:24:12.3476|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI) 
+2023-11-02 18:24:15.7202|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MyProger.Mciro.SearchAPI.Controllers.V1.SearchController (MyProger.Micro.SearchAPI) 
+2023-11-02 18:24:16.1464|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'System.String' ... 
+2023-11-02 18:24:16.1464|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'request' of type 'System.String' using the name 'request' in request data ... 
+2023-11-02 18:24:16.1464|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'request' of type 'System.String'. 
+2023-11-02 18:24:16.1464|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'System.String'. 
+2023-11-02 18:24:16.1464|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'System.String' ... 
+2023-11-02 18:24:16.1464|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'System.String'. 
+2023-11-02 18:24:16.7989|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-11-02 18:24:16.8932|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 18:24:16.8932|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 18:24:16.8932|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 18:24:16.8932|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 18:24:16.8932|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) - Validation state: Valid 
+2023-11-02 18:24:16.8932|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) with arguments (dsfdsf) 
+2023-11-02 18:24:30.8486|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received HEADERS frame for stream ID 11 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:24:30.8486|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:24:30.8486|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:24:30.8486|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received RST_STREAM frame for stream ID 11 with length 4 and flags 0x0. 
+2023-11-02 18:24:30.8486|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/prometheus - - 
+2023-11-02 18:24:30.8486|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:24:30.8486|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:24:30.8486|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 18:24:30.8486|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:24:30.8646|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 13.8870ms 
+2023-11-02 18:24:30.8646|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received HEADERS frame for stream ID 13 with length 37 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-11-02 18:24:30.8646|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7120/prometheus - - 
+2023-11-02 18:24:30.8646|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:24:30.8646|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:24:30.8646|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 18:24:30.8646|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:24:31.3593|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending HEADERS frame for stream ID 13 with length 65 and flags END_HEADERS. 
+2023-11-02 18:24:31.3593|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 13 with length 9747 and flags NONE. 
+2023-11-02 18:24:31.4397|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:24:31.4397|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7120/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 573.5998ms 
+2023-11-02 18:24:31.4397|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2023-11-02 18:24:31.4683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received HEADERS frame for stream ID 7 with length 383 and flags END_HEADERS. 
+2023-11-02 18:24:31.4683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 7 with length 685 and flags NONE. 
+2023-11-02 18:24:31.4683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2023-11-02 18:24:31.4683|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:24:31.4683|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:24:31.4683|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:24:31.4683|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:24:31.4683|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:24:31.4683|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.5555ms 
+2023-11-02 18:24:31.4683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending HEADERS frame for stream ID 7 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:24:31.4683|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000007": started reading request body. 
+2023-11-02 18:24:31.4683|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000007": done reading request body. 
+2023-11-02 18:24:31.4683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:24:31.4683|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:24:31.5020|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - dsfdsf 02.11.2023 18:24:31 
+2023-11-02 18:24:44.3357|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received HEADERS frame for stream ID 9 with length 383 and flags END_HEADERS. 
+2023-11-02 18:24:44.3357|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 9 with length 1558 and flags NONE. 
+2023-11-02 18:24:44.3357|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2023-11-02 18:24:44.3357|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - 
+2023-11-02 18:24:44.3357|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:24:44.3357|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported 
+2023-11-02 18:24:44.3357|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/opentelemetry.proto.collector.trace.v1.TraceService/Export' 
+2023-11-02 18:24:44.3357|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:24:44.3357|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7120/opentelemetry.proto.collector.trace.v1.TraceService/Export application/grpc - - 404 0 - 0.2806ms 
+2023-11-02 18:24:44.3357|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending HEADERS frame for stream ID 9 with length 37 and flags END_STREAM, END_HEADERS. 
+2023-11-02 18:24:44.3357|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000009": started reading request body. 
+2023-11-02 18:24:44.3357|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HMURJPRTF8DL", Request id "0HMURJPRTF8DL:00000009": done reading request body. 
+2023-11-02 18:24:44.3357|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" received PING frame for stream ID 0 with length 8 and flags NONE. 
+2023-11-02 18:24:44.3357|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DL" sending PING frame for stream ID 0 with length 8 and flags ACK. 
+2023-11-02 18:24:45.3115|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 02.11.2023 18:24:45 
+2023-11-02 18:24:47.3369|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 18:24:47.3369|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2023-11-02 18:24:47.3369|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 18:24:47.3369|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-11-02 18:24:47.3369|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-11-02 18:24:47.3369|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI) in 34991.1506ms 
+2023-11-02 18:24:47.3431|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob (MyProger.Micro.SearchAPI)' 
+2023-11-02 18:24:47.3431|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 36
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-11-02 18:24:47.3431|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending HEADERS frame for stream ID 9 with length 60 and flags END_HEADERS. 
+2023-11-02 18:24:47.3431|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 9 with length 4164 and flags NONE. 
+2023-11-02 18:24:47.3431|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-11-02 18:24:47.3431|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" received WINDOW_UPDATE frame for stream ID 9 with length 4 and flags 0x0. 
+2023-11-02 18:24:47.3726|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMURJPRTF8DK" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2023-11-02 18:30:24.0636|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-11-02 18:30:24.1259|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-11-02 18:30:24.1702|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 
+2023-11-02 18:30:24.1757|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MyProger.Micro.SearchAPI 
+2023-11-02 18:30:24.1757|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-11-02 18:30:24.1757|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-11-02 18:30:24.1757|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI 
+2023-11-02 18:30:24.1757|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-11-02 18:30:39.9359|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJU31P1JD" accepted. 
+2023-11-02 18:30:39.9366|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJU31P1JE" accepted. 
+2023-11-02 18:30:39.9366|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJU31P1JD" started. 
+2023-11-02 18:30:39.9366|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJU31P1JE" started. 
+2023-11-02 18:30:39.9683|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5150/ - - 
+2023-11-02 18:30:39.9683|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-11-02 18:30:39.9683|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:30:39.9683|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:30:39.9838|0|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect. 
+2023-11-02 18:30:39.9838|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/' 
+2023-11-02 18:30:39.9838|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:30:39.9838|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJU31P1JD" completed keep alive response. 
+2023-11-02 18:30:39.9838|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5150/ - - - 404 0 - 29.4298ms 
+2023-11-02 18:30:46.8961|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5150/prometheus - - 
+2023-11-02 18:30:46.8961|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:30:46.8961|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:30:46.8961|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/prometheus' 
+2023-11-02 18:30:46.8961|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:30:46.8961|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJU31P1JD" completed keep alive response. 
+2023-11-02 18:30:46.8961|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5150/prometheus - - - 200 - text/plain;+charset=utf-8;+version=0.0.4 6.8672ms 
+2023-11-02 18:30:47.1337|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5150/favicon.ico - - 
+2023-11-02 18:30:47.1337|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-11-02 18:30:47.1337|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter 
+2023-11-02 18:30:47.1337|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/favicon.ico' 
+2023-11-02 18:30:47.1337|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints 
+2023-11-02 18:30:47.1337|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMURJU31P1JD" completed keep alive response. 
+2023-11-02 18:30:47.1337|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5150/favicon.ico - - - 404 0 - 1.7125ms 

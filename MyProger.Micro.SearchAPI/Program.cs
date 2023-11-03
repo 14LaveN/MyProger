@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using Microsoft.ApplicationInsights.Extensibility.EventCounterCollector;
 using Microsoft.Extensions.Options;
 using MyProger.Core.Models.Settings;
 using MyProger.Mciro.SearchAPI.Command.Search.SearchJob;
@@ -6,7 +8,11 @@ using MyProger.Mciro.SearchAPI.Configurations;
 using MyProger.Mciro.SearchAPI.Service;
 using Nest;
 using NLog.Web;
-using LogLevel = NLog.LogLevel;
+using Prometheus;
+using Prometheus.Client.AspNetCore;
+using Prometheus.Client.HttpRequestDurations;
+using Prometheus.DotNetRuntime;
+using Metrics = Prometheus.Metrics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,8 +32,7 @@ builder.Services.AddMediatR(x =>
 });
 
 builder.Services.AddSwachbackleService()
-    .AddValidators()
-    .AddMonitoring(builder.Environment);
+    .AddValidators();
 
 builder.Services.AddLogging(options =>
 {
@@ -38,7 +43,6 @@ builder.Services.AddLogging(options =>
 builder.Logging.AddNLogWeb("nlog.config");
 
 builder.Host.UseNLog();
-
 
 builder.Services.AddTransient<SearchService>();
 
@@ -62,15 +66,19 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapPrometheusScrapingEndpoint();
-
-app.UseOpenTelemetryPrometheusScrapingEndpoint("/prometheus");
-
 app.UseDeveloperExceptionPage();
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
+app.UseRouting();
+
+app.UseMetricServer();
+
+app.UseHttpMetrics();
+
+app.UsePrometheusServer();
+
+app.UsePrometheusRequestDurations();
 
 app.MapControllers();
 

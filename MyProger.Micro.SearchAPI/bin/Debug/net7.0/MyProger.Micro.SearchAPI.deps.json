@@ -8,84 +8,29 @@
     ".NETCoreApp,Version=v7.0": {
       "MyProger.Micro.SearchAPI/1.0.0": {
         "dependencies": {
-          "App.Metrics.Formatters.Prometheus": "4.4.0-preview.0.9",
           "Elasticsearch.Net": "7.17.5",
           "FluentValidation": "11.8.0",
           "MediatR": "12.1.1",
           "MediatR.Contracts": "2.0.1",
+          "Microsoft.ApplicationInsights": "2.21.0",
+          "Microsoft.ApplicationInsights.EventCounterCollector": "2.21.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.9",
           "MyProger.Core": "1.0.0",
           "NEST": "7.17.5",
           "NLog.Web.AspNetCore": "5.3.5",
           "OpenTelemetry.Exporter.Console": "1.5.0",
           "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.5.0",
-          "OpenTelemetry.Exporter.Prometheus.AspNetCore": "1.5.0-rc.1",
           "OpenTelemetry.Extensions.Hosting": "1.5.0",
           "OpenTelemetry.Instrumentation.AspNetCore": "1.5.0-beta.1",
           "OpenTelemetry.Instrumentation.Http": "1.5.0-beta.1",
-          "Prometheus.Client": "5.2.0",
           "Prometheus.Client.AspNetCore": "5.0.0",
+          "Prometheus.Client.HttpRequestDurations": "3.6.0",
           "Swashbuckle.AspNetCore": "6.5.0",
-          "prometheus-net": "8.1.0"
+          "prometheus-net.AspNetCore": "7.1.0-pre-000318-0479f53",
+          "prometheus-net.DotNetRuntime": "4.4.0"
         },
         "runtime": {
           "MyProger.Micro.SearchAPI.dll": {}
-        }
-      },
-      "App.Metrics.Abstractions/4.4.0-preview.0.4": {
-        "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.0.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/App.Metrics.Abstractions.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.0.0"
-          }
-        }
-      },
-      "App.Metrics.Concurrency/4.4.0-preview.0.4": {
-        "runtime": {
-          "lib/netstandard2.0/App.Metrics.Concurrency.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.0.0"
-          }
-        }
-      },
-      "App.Metrics.Core/4.4.0-preview.0.4": {
-        "dependencies": {
-          "App.Metrics.Abstractions": "4.4.0-preview.0.4",
-          "App.Metrics.Concurrency": "4.4.0-preview.0.4",
-          "App.Metrics.Formatters.Ascii": "4.4.0-preview.0.4",
-          "Microsoft.CSharp": "4.6.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/App.Metrics.Core.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.0.0"
-          }
-        }
-      },
-      "App.Metrics.Formatters.Ascii/4.4.0-preview.0.4": {
-        "dependencies": {
-          "App.Metrics.Abstractions": "4.4.0-preview.0.4"
-        },
-        "runtime": {
-          "lib/netstandard2.1/App.Metrics.Formatters.Ascii.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.0.0"
-          }
-        }
-      },
-      "App.Metrics.Formatters.Prometheus/4.4.0-preview.0.9": {
-        "dependencies": {
-          "App.Metrics.Core": "4.4.0-preview.0.4",
-          "protobuf-net": "2.4.0"
-        },
-        "runtime": {
-          "lib/netstandard2.1/App.Metrics.Formatters.Prometheus.dll": {
-            "assemblyVersion": "4.4.0.0",
-            "fileVersion": "4.4.0.0"
-          }
         }
       },
       "Elasticsearch.Net/7.17.5": {
@@ -171,6 +116,28 @@
           }
         }
       },
+      "Microsoft.ApplicationInsights/2.21.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ApplicationInsights.dll": {
+            "assemblyVersion": "2.21.0.429",
+            "fileVersion": "2.21.0.429"
+          }
+        }
+      },
+      "Microsoft.ApplicationInsights.EventCounterCollector/2.21.0": {
+        "dependencies": {
+          "Microsoft.ApplicationInsights": "2.21.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AI.EventCounterCollector.dll": {
+            "assemblyVersion": "2.21.0.429",
+            "fileVersion": "2.21.0.429"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.12": {
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -198,14 +165,6 @@
           "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {
             "assemblyVersion": "7.0.9.0",
             "fileVersion": "7.0.923.32110"
-          }
-        }
-      },
-      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "4.700.19.46214"
           }
         }
       },
@@ -298,7 +257,6 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.0"
         }
       },
-      "Microsoft.Extensions.ObjectPool/7.0.0": {},
       "Microsoft.Extensions.Options/7.0.1": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
@@ -361,7 +319,6 @@
           }
         }
       },
-      "Microsoft.NETCore.Platforms/2.1.0": {},
       "Microsoft.OpenApi/1.4.3": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -486,17 +443,6 @@
           }
         }
       },
-      "OpenTelemetry.Exporter.Prometheus.AspNetCore/1.5.0-rc.1": {
-        "dependencies": {
-          "OpenTelemetry": "1.5.0"
-        },
-        "runtime": {
-          "lib/net6.0/OpenTelemetry.Exporter.Prometheus.AspNetCore.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.5.0.895"
-          }
-        }
-      },
       "OpenTelemetry.Extensions.Hosting/1.5.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting.Abstractions": "2.1.0",
@@ -531,15 +477,37 @@
           }
         }
       },
-      "prometheus-net/8.1.0": {
+      "prometheus-net/7.1.0-pre-000318-0479f53": {
         "dependencies": {
-          "Microsoft.Extensions.Http": "3.1.0",
-          "Microsoft.Extensions.ObjectPool": "7.0.0"
+          "Microsoft.Extensions.Http": "3.1.0"
         },
         "runtime": {
           "lib/net7.0/Prometheus.NetStandard.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.1.0.0"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "prometheus-net.AspNetCore/7.1.0-pre-000318-0479f53": {
+        "dependencies": {
+          "prometheus-net": "7.1.0-pre-000318-0479f53"
+        },
+        "runtime": {
+          "lib/net6.0/Prometheus.AspNetCore.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "prometheus-net.DotNetRuntime/4.4.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "prometheus-net": "7.1.0-pre-000318-0479f53"
+        },
+        "runtime": {
+          "lib/net6.0/prometheus-net.DotNetRuntime.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.4.0.0"
           }
         }
       },
@@ -573,14 +541,14 @@
           }
         }
       },
-      "protobuf-net/2.4.0": {
+      "Prometheus.Client.HttpRequestDurations/3.6.0": {
         "dependencies": {
-          "System.ServiceModel.Primitives": "4.5.3"
+          "Prometheus.Client": "5.2.0"
         },
         "runtime": {
-          "lib/netcoreapp2.1/protobuf-net.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.0.8641"
+          "lib/net6.0/Prometheus.Client.HttpRequestDurations.dll": {
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
           }
         }
       },
@@ -637,49 +605,7 @@
         }
       },
       "System.Memory/4.5.5": {},
-      "System.Private.ServiceModel/4.5.3": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0",
-          "System.Reflection.DispatchProxy": "4.5.0",
-          "System.Security.Principal.Windows": "4.5.0"
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll": {
-            "rid": "unix",
-            "assetType": "runtime",
-            "assemblyVersion": "4.5.0.3",
-            "fileVersion": "4.6.26720.1"
-          },
-          "runtimes/win/lib/netstandard2.0/System.Private.ServiceModel.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.5.0.3",
-            "fileVersion": "4.6.26720.1"
-          }
-        }
-      },
-      "System.Reflection.DispatchProxy/4.5.0": {},
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
-      "System.Security.Principal.Windows/4.5.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.1.0"
-        }
-      },
-      "System.ServiceModel.Primitives/4.5.3": {
-        "dependencies": {
-          "System.Private.ServiceModel": "4.5.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.ServiceModel.Primitives.dll": {
-            "assemblyVersion": "4.5.0.3",
-            "fileVersion": "4.6.26720.1"
-          },
-          "lib/netstandard2.0/System.ServiceModel.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.26720.1"
-          }
-        }
-      },
       "System.Text.Encodings.Web/4.7.2": {},
       "System.Text.Json/4.7.2": {},
       "MyProger.Core/1.0.0": {
@@ -699,41 +625,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "App.Metrics.Abstractions/4.4.0-preview.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-C25nahIVEs16eeEZVi7knwD276SK+OANrKu4f7QeE1dxtxF95/GDJ4vJNtkOdh2DiAaTcZC8g/Hr2GX+WD7F1w==",
-      "path": "app.metrics.abstractions/4.4.0-preview.0.4",
-      "hashPath": "app.metrics.abstractions.4.4.0-preview.0.4.nupkg.sha512"
-    },
-    "App.Metrics.Concurrency/4.4.0-preview.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-fAxQm9OQ57HVsn51m9tQy5fx9805gHZ5cAP5GBp5jp160BgM+ufQEWtWuQXbnIGK7DRfRO+xRwLCW3fk3vY9Cw==",
-      "path": "app.metrics.concurrency/4.4.0-preview.0.4",
-      "hashPath": "app.metrics.concurrency.4.4.0-preview.0.4.nupkg.sha512"
-    },
-    "App.Metrics.Core/4.4.0-preview.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-A0X/49aqtxvZ9qp2i8Yj/1nERhdMLtRB54uIIdmR/ZIrb0ob2h3Nsr2qsdDoUHsntDFh7HV8QLmkDELMFaK2BA==",
-      "path": "app.metrics.core/4.4.0-preview.0.4",
-      "hashPath": "app.metrics.core.4.4.0-preview.0.4.nupkg.sha512"
-    },
-    "App.Metrics.Formatters.Ascii/4.4.0-preview.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-yFMgjYg82NlBuN/rOCcT+qELN8AWCpfyXL3oAjUuzZnB/a/q0siiV0GleU5sXs2t4USMhtQQY5QfTgIYWQi1fQ==",
-      "path": "app.metrics.formatters.ascii/4.4.0-preview.0.4",
-      "hashPath": "app.metrics.formatters.ascii.4.4.0-preview.0.4.nupkg.sha512"
-    },
-    "App.Metrics.Formatters.Prometheus/4.4.0-preview.0.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-eDUcsxX6H/42Yuc/uAWN4qR+meO3OPOBlON59U9U2XHC5AfBTlhov+BtFvqEfLjXSvaT8qA/mbvGsGlyfBVlDA==",
-      "path": "app.metrics.formatters.prometheus/4.4.0-preview.0.9",
-      "hashPath": "app.metrics.formatters.prometheus.4.4.0-preview.0.9.nupkg.sha512"
     },
     "Elasticsearch.Net/7.17.5": {
       "type": "package",
@@ -791,6 +682,20 @@
       "path": "mediatr.contracts/2.0.1",
       "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
+    "Microsoft.ApplicationInsights/2.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-btZEDWAFNo9CoYliMCriSMTX3ruRGZTtYw4mo2XyyfLlowFicYVM2Xszi5evDG95QRYV7MbbH3D2RqVwfZlJHw==",
+      "path": "microsoft.applicationinsights/2.21.0",
+      "hashPath": "microsoft.applicationinsights.2.21.0.nupkg.sha512"
+    },
+    "Microsoft.ApplicationInsights.EventCounterCollector/2.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MfF9IKxx9UhaYHVFQ1VKw0LYvBhkjZtPNUmCTYlGws0N7D2EaupmeIj/EWalqP47sQRedR9+VzARsONcwH8OCA==",
+      "path": "microsoft.applicationinsights.eventcountercollector/2.21.0",
+      "hashPath": "microsoft.applicationinsights.eventcountercollector.2.21.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.12": {
       "type": "package",
       "serviceable": true,
@@ -811,13 +716,6 @@
       "sha512": "sha512-5kBnHntQTJqmYV66Khdl9OJ/j2Pw8cOKj8kNQuLCpfCsPbSijp334Vaad3vaGnG9Wpgq/VbSUSRxZOoroOe8zQ==",
       "path": "microsoft.aspnetcore.openapi/7.0.9",
       "hashPath": "microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512"
-    },
-    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
-      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
-      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.6.0": {
       "type": "package",
@@ -931,13 +829,6 @@
       "path": "microsoft.extensions.logging.configuration/3.1.0",
       "hashPath": "microsoft.extensions.logging.configuration.3.1.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.ObjectPool/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-udvKco0sAVgYGTBnHUb0tY9JQzJ/nPDiv/8PIyz69wl1AibeCDZOLVVI+6156dPfHmJH7ws5oUJRiW4ZmAvuuA==",
-      "path": "microsoft.extensions.objectpool/7.0.0",
-      "hashPath": "microsoft.extensions.objectpool.7.0.0.nupkg.sha512"
-    },
     "Microsoft.Extensions.Options/7.0.1": {
       "type": "package",
       "serviceable": true,
@@ -986,13 +877,6 @@
       "sha512": "sha512-wB+LlbDjhnJ98DULjmFepqf9eEMh/sDs6S6hFh68iNRHmwollwhxk+nbSSfpA5+j+FbRyNskoaY4JsY1iCOKCg==",
       "path": "microsoft.identitymodel.tokens/7.0.3",
       "hashPath": "microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
-    },
-    "Microsoft.NETCore.Platforms/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
-      "path": "microsoft.netcore.platforms/2.1.0",
-      "hashPath": "microsoft.netcore.platforms.2.1.0.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.4.3": {
       "type": "package",
@@ -1071,13 +955,6 @@
       "path": "opentelemetry.exporter.opentelemetryprotocol/1.5.0",
       "hashPath": "opentelemetry.exporter.opentelemetryprotocol.1.5.0.nupkg.sha512"
     },
-    "OpenTelemetry.Exporter.Prometheus.AspNetCore/1.5.0-rc.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DnP6IyHSv7+Y3pYs7+8/wf77yjpfsw28N8wdbV68J1n+PZCfi+bf912qWye8/rsm+x0d2PySd+Iq8Pd4MSe1WA==",
-      "path": "opentelemetry.exporter.prometheus.aspnetcore/1.5.0-rc.1",
-      "hashPath": "opentelemetry.exporter.prometheus.aspnetcore.1.5.0-rc.1.nupkg.sha512"
-    },
     "OpenTelemetry.Extensions.Hosting/1.5.0": {
       "type": "package",
       "serviceable": true,
@@ -1099,12 +976,26 @@
       "path": "opentelemetry.instrumentation.http/1.5.0-beta.1",
       "hashPath": "opentelemetry.instrumentation.http.1.5.0-beta.1.nupkg.sha512"
     },
-    "prometheus-net/8.1.0": {
+    "prometheus-net/7.1.0-pre-000318-0479f53": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4prJfXFYmCPtuedjSjvtsI9BGjsH6hXrqz/yAOx07osiVwzRVyLP7Os+5rFJ5g2PLOoO3149RbEyp2/b223/CQ==",
-      "path": "prometheus-net/8.1.0",
-      "hashPath": "prometheus-net.8.1.0.nupkg.sha512"
+      "sha512": "sha512-JPQl1h8pZO5V5u34OlmtkMf9RbOuYFmY5k10mDW8037fRKWtfp9Hl/5BBIHmE/rwcY0FL1cq6nZ+On7Gyluchw==",
+      "path": "prometheus-net/7.1.0-pre-000318-0479f53",
+      "hashPath": "prometheus-net.7.1.0-pre-000318-0479f53.nupkg.sha512"
+    },
+    "prometheus-net.AspNetCore/7.1.0-pre-000318-0479f53": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BKxl5cTDFWxXDacEabLwWXJurhXHQIrnpraFww6x8LDFNRRI0ILrV9KnYuozjqRJ4tPr3BWlyjZlKo/byLvAFw==",
+      "path": "prometheus-net.aspnetcore/7.1.0-pre-000318-0479f53",
+      "hashPath": "prometheus-net.aspnetcore.7.1.0-pre-000318-0479f53.nupkg.sha512"
+    },
+    "prometheus-net.DotNetRuntime/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wjZHRHOXxdI8qS8Wa1VmBLG0foRsuAYLXpxwphKVu739A40WSn/BtSouZqZRt87ni8xzKhQiiXeYws1PoIVcDQ==",
+      "path": "prometheus-net.dotnetruntime/4.4.0",
+      "hashPath": "prometheus-net.dotnetruntime.4.4.0.nupkg.sha512"
     },
     "Prometheus.Client/5.2.0": {
       "type": "package",
@@ -1127,12 +1018,12 @@
       "path": "prometheus.client.aspnetcore/5.0.0",
       "hashPath": "prometheus.client.aspnetcore.5.0.0.nupkg.sha512"
     },
-    "protobuf-net/2.4.0": {
+    "Prometheus.Client.HttpRequestDurations/3.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-j37MD1p1s9NdX8P5+IaY2J9p2382xiL1VP3mxYu0g+G/kf2YM2grFa1jJPO+0WDJNl1XhNPO0Q5yBEcbX77hBQ==",
-      "path": "protobuf-net/2.4.0",
-      "hashPath": "protobuf-net.2.4.0.nupkg.sha512"
+      "sha512": "sha512-R/6uHKXoOdNMAU+WdqDfJkJe49sXbBWADDIIzc33NL3ZHL/l/GBPH+6i59SrVYmJMr93IOq1LdUcBq9FuIMCgw==",
+      "path": "prometheus.client.httprequestdurations/3.6.0",
+      "hashPath": "prometheus.client.httprequestdurations.3.6.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",
@@ -1190,40 +1081,12 @@
       "path": "system.memory/4.5.5",
       "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
-    "System.Private.ServiceModel/4.5.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ancrQgJagx+yC4SZbuE+eShiEAUIF0E1d21TRSoy1C/rTwafAVcBr/fKibkq5TQzyy9uNil2tx2/iaUxsy0S9g==",
-      "path": "system.private.servicemodel/4.5.3",
-      "hashPath": "system.private.servicemodel.4.5.3.nupkg.sha512"
-    },
-    "System.Reflection.DispatchProxy/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+UW1hq11TNSeb+16rIk8hRQ02o339NFyzMc4ma/FqmxBzM30l1c2IherBB4ld1MNcenS48fz8tbt50OW4rVULA==",
-      "path": "system.reflection.dispatchproxy/4.5.0",
-      "hashPath": "system.reflection.dispatchproxy.4.5.0.nupkg.sha512"
-    },
     "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
       "path": "system.runtime.compilerservices.unsafe/5.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
-    },
-    "System.Security.Principal.Windows/4.5.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
-      "path": "system.security.principal.windows/4.5.0",
-      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
-    },
-    "System.ServiceModel.Primitives/4.5.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Wc9Hgg4Cmqi416zvEgq2sW1YYCGuhwWzspDclJWlFZqY6EGhFUPZU+kVpl5z9kAgrSOQP7/Uiik+PtSQtmq+5A==",
-      "path": "system.servicemodel.primitives/4.5.3",
-      "hashPath": "system.servicemodel.primitives.4.5.3.nupkg.sha512"
     },
     "System.Text.Encodings.Web/4.7.2": {
       "type": "package",

@@ -1,0 +1,236 @@
+2023-11-03 11:02:08.1713|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:02:08.1893|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:02:08.1893|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:02:08.1893|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:02:08.1893|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 11:02:14.7831|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Void Prometheus.TextSerializer..ctor(System.Func`1<System.IO.Stream>)'.
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/metrics|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 11:02:46.0399|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:02:46.0512|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:02:46.0512|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:02:46.0512|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:02:46.0512|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 11:03:40.3466|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:03:40.3466|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:03:40.3466|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:03:40.3466|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:03:40.3466|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 11:03:47.6437|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Void Prometheus.TextSerializer..ctor(System.Func`1<System.IO.Stream>)'.
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.Extensions.MapMiddleware.InvokeCore(HttpContext context, PathString matchedPath, PathString remainingPath)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/metrics|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 11:04:56.1970|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:04:56.2070|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:04:56.2070|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:04:56.2070|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:04:56.2070|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 11:06:27.3735|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:06:27.3825|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:06:27.3825|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:06:27.3825|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:06:27.3825|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 11:07:10.6203|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:07:10.6293|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:07:10.6293|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:07:10.6293|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:07:10.6293|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 11:08:53.0782|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:08:53.0873|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 11:08:53.0873|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:08:53.0873|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 11:08:53.0873|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 11:09:22.6641|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - fgh 03.11.2023 11:09:22 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 11:09:30.5559|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 03.11.2023 11:09:30 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 11:09:33.5030|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 36
+   at lambda_method8(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/api/v1/search/get-job|action: GetJob|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 13:20:43.1767|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:20:43.1767|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:20:43.1767|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:20:43.1889|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:20:43.1889|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:22:38.6011|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:22:38.6104|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:22:38.6104|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:22:38.6104|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:22:38.6104|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:30:19.8220|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:30:19.8319|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:30:19.8319|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:30:19.8319|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:30:19.8319|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:30:25.8135|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Void Prometheus.TextSerializer..ctor(System.Func`1<System.IO.Stream>)'.
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/metrics|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 13:31:33.5880|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:31:33.5973|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:31:33.5973|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:31:33.5973|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:31:33.5973|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:31:42.0491|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Void Prometheus.TextSerializer..ctor(System.Func`1<System.IO.Stream>)'.
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/metrics|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 13:33:49.6558|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:33:49.6649|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:33:49.6649|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:33:49.6649|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:33:49.6649|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:38:30.3192|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:38:30.3192|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:38:30.3294|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:38:30.3294|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:38:30.3294|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:39:19.7387|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:39:19.7387|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:39:19.7387|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:39:19.7387|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:39:19.7387|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:39:26.2385|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Void Prometheus.TextSerializer..ctor(System.Func`1<System.IO.Stream>)'.
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/metrics|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 13:41:37.5171|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:41:37.5171|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:41:37.5171|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:41:37.5171|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:41:37.5171|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:42:48.4073|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:42:48.4073|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:42:48.4073|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:42:48.4073|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:42:48.4073|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:49:00.0853|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:49:00.0952|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:49:00.0952|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:49:00.0952|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:49:00.0952|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:51:21.9698|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:51:21.9698|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 13:51:21.9698|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:51:21.9698|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 13:51:21.9698|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 13:51:28.9774|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.MissingMethodException: Method not found: 'Void Prometheus.TextSerializer..ctor(System.Func`1<System.IO.Stream>)'.
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at Prometheus.MetricServerMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/metrics|action: |Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 14:07:28.9840|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 14:07:28.9932|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 14:07:28.9932|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 14:07:28.9932|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 14:07:28.9932|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 14:23:07.0444|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 14:23:07.0544|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 14:23:07.0544|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 14:23:07.0544|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 14:23:07.0544|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 14:23:36.6412|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - dsfsfsdf 03.11.2023 14:23:36 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 14:23:43.2053|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 03.11.2023 14:23:43 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 14:24:10.3763|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 14:24:10.3763|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 14:24:10.3763|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 14:24:10.3763|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 14:24:10.3763|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 14:24:25.7650|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - dfgdf 03.11.2023 14:24:25 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 14:24:32.2057|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 03.11.2023 14:24:32 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 14:24:43.0627|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 49
+   at lambda_method10(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Prometheus.Client.HttpRequestDurations.HttpRequestDurationsMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Program.cs:line 85
+--- End of stack trace from previous location ---
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/api/v1/search/get-job|action: GetJob|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 14:25:54.2862|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - dsfsfsdf 03.11.2023 14:25:54 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 14:26:03.5486|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 03.11.2023 14:26:03 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 14:26:03.6112|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 49
+   at lambda_method10(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Prometheus.Client.HttpRequestDurations.HttpRequestDurationsMiddleware.Invoke(HttpContext context)
+   at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Program.cs:line 85
+--- End of stack trace from previous location ---
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/api/v1/search/get-job|action: GetJob|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-11-03 14:27:51.7934|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7120 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 14:27:51.8033|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5150 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-11-03 14:27:51.8033|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 14:27:51.8033|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-11-03 14:27:51.8033|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-11-03 14:28:22.7031|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Request for search - sdfsdf 03.11.2023 14:28:22 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 14:28:28.3790|0|INFO|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler|Found by request - System.Collections.Generic.List`1[MyProger.Core.Entity.Job.JobEntity] 03.11.2023 14:28:28 |url: https://localhost/api/v1/search/get-job|action: GetJob|MyProger.Mciro.SearchAPI.Command.Search.SearchJob.SearchJobCommandHandler.Handle
+2023-11-03 14:28:30.5327|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.ArgumentException: Value does not fall within the expected range.
+   at MyProger.Mciro.SearchAPI.Controllers.V1.SearchController.GetJob(String request) in E:\DotNetProjects\MyProger\MyProger.Micro.SearchAPI\Controllers\V1\SearchController.cs:line 47
+   at lambda_method10(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Prometheus.Client.HttpRequestDurations.HttpRequestDurationsMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestDurationMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpRequestCountMiddleware.Invoke(HttpContext context)
+   at Prometheus.HttpMetrics.HttpInProgressMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/api/v1/search/get-job|action: GetJob|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
